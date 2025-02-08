@@ -20,7 +20,7 @@ if [ ! -e "${KEYBINDINGS_FILE}" ]; then
     echo "No existing VSCode keybindings found. Skip step"
 else
     echo "Copy existing VSCode keybindings"
-    cp "${SETTINGS_FILE}" vscode/keybindings.json
+    cp "${KEYBINDINGS_FILE}" vscode/keybindings.json
 fi
 
 if [ ! -d "${SNIPPETS_DIR}" ]; then 

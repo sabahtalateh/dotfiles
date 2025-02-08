@@ -59,9 +59,10 @@
             // Подсветка неактивных найденных слов при поиске
             "editor.findMatchHighlightBackground": "#ffcc0037",
 
-            // Подсветка токенов под курсором
-            "editor.wordHighlightBackground": "#FCF4D4",
-            "editor.wordHighlightStrongBackground": "#FCF4D4",
+            // Цвет выделения
+            "editor.selectionBackground": "#FCF4D4",
+            // Цвет участков текста, совпадающих с выделением
+            "editor.selectionHighlightBackground":"#FCF4D4",
         }
     },
     

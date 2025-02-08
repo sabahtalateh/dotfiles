@@ -47,7 +47,7 @@
     // Мои иконки. Устанавливаются из extensions.txt (sabaken.good-icons)
     "workbench.iconTheme": "good-icons",
 
-    // Не показывать диалог при синке веток
+    // Не показывать диалог при синхронизации веток
     "git.confirmSync": false,
 
     // Настройки темы

@@ -1,5 +1,3 @@
-set +o xtrace
-
 if ! command -v code 2>&1 >/dev/null
 then
     echo "VSCode not installed"

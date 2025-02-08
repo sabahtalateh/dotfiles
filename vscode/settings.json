@@ -47,6 +47,9 @@
     // Мои иконки. Устанавливаются из extensions.txt (sabaken.good-icons)
     "workbench.iconTheme": "good-icons",
 
+    // Не показывать диалог при синке веток
+    "git.confirmSync": false,
+
     // Настройки темы
     "workbench.colorCustomizations": {
         "[Default Light Modern]": {
@@ -142,5 +145,5 @@
                 },
             ],
         },
-    },   
+    },
 }

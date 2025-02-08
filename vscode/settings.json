@@ -63,7 +63,7 @@
             "editor.selectionBackground": "#FCF4D4",
             // Цвет участков текста, совпадающих с выделением
             "editor.selectionHighlightBackground":"#FCF4D4",
-        }
+        } 
     },
     
     // Настройки подсветки синтаксиса

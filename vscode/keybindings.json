@@ -49,4 +49,25 @@
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "!editorTextFocus && !(listFocus && treeFindOpen)"
     },
+    // Cursor Home with ctrl+a
+    {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-cursorLineStart",
+        "when": "textInputFocus"
+    },
+    // Reveal file in Tree View
+    {
+        "key": "cmd+f1",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    // Reload window
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.action.reloadWindow"
+    },
 ]

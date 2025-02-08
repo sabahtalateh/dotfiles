@@ -86,7 +86,7 @@
             "variables": "#000000",
             "types": "#000000",
             "textMateRules": [
-                // Комменты серые
+                // Комментарии серые
                 {
                     "scope": "comment",
                     "settings": {

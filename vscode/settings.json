@@ -44,6 +44,9 @@
     // Подсказки при написании кода по последнему использованию
     "editor.suggestSelection": "recentlyUsedByPrefix",
 
+    // Мои иконки. Устанавливаются из extensions.txt (sabaken.good-icons)
+    "workbench.iconTheme": "good-icons",
+
     // Настройки темы
     "workbench.colorCustomizations": {
         "[Default Light Modern]": {

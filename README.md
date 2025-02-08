@@ -5,6 +5,7 @@ TODO:
 - vscode
     - vscode fix selection switches blue -> yello
 - brew (https://brew.sh)
+- ghostty
 - zsh + ohmyzsh
 - karabiner config
 - macos system keybindings

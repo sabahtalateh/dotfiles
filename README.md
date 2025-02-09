@@ -40,7 +40,7 @@ https://github.com/sabahtalateh/init-system
 
 ### Stage Manager
 
-Включается в Control Center
+Включаем в Control Center
 
 <img src="./images/stage-manager.png" width="300"/>
 

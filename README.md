@@ -4,7 +4,7 @@
 ## TODO:
 - Karabiner
 - Raycast
-- use links not copies
+- use links whe possible
 - brew (https://brew.sh)
 - ghostty + config
 - zsh + ohmyzsh
@@ -15,6 +15,7 @@
 - [Порядок настройки](#порядок-настройки)
 - [Настройки системы](#настройки-системы)
     - [Stage Manager](#stage-manager)
+    - [Desktop & Dock](#)
     - [Keyboard shortcuts](#keyboard-shortcuts)
         - [Launchpad & Dock](#launchpad--dock)
         - [Mission Control](#mission-control)
@@ -27,8 +28,9 @@
 
 ## Порядок настройки
 
-1. Karabiner
-2. 2
+1. Ghostty
+2. Karabiner
+3. 3
 
 
 ## Настройки Системы
@@ -39,6 +41,12 @@
 
 <img src="./macos/stage-manager.png" width="300"/>
 
+### Desktop & Dock
+
+<img src="./macos/desktop-and-dock-1.png" width="600"/>
+<img src="./macos/desktop-and-dock-2.png" width="600"/>
+<img src="./macos/desktop-and-dock-3.png" width="600"/>
+
 ### Keyboard Shortcuts
 Настраиваем 
 ```
@@ -47,39 +55,39 @@ System Settings -> Keyboard -> Keyboard Shortcuts
 
 #### Launchpad & Dock
 
-<img src="./macos/launchpad-and-dock.png" width="500"/>
+<img src="./macos/launchpad-and-dock.png" width="600"/>
 
 #### Mission Control
 
-<img src="./macos/mission-control.png" width="500"/>
+<img src="./macos/mission-control.png" width="600"/>
 
 #### Keyboard
 
 Move focus to next window переключает окна внутри группы в режиме Stage Manager. Это удобно.
 
-<img src="./macos/keyboard.png" width="500"/>
+<img src="./macos/keyboard.png" width="600"/>
 
 #### Input Sources
 
-<img src="./macos/input-sources.png" width="500"/>
+<img src="./macos/input-sources.png" width="600"/>
 
 #### Screenshots
 
-<img src="./macos/screenshots.png" width="500"/>
+<img src="./macos/screenshots.png" width="600"/>
 
 #### Spotlight
 
 Отключаем Spotlight, вместо него будет использоваться Raycast.
 
-<img src="./macos/spotlight.png" width="500"/>
+<img src="./macos/spotlight.png" width="600"/>
 
 #### Function Keys
 
-<img src="./macos/function-keys.png" width="500"/>
+<img src="./macos/function-keys.png" width="600"/>
 
 #### Modifier Keys
 
-<img src="./macos/modifier-keys.png" width="500"/>
+<img src="./macos/modifier-keys.png" width="600"/>
 
 ## Что надо установить руками
 

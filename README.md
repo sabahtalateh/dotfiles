@@ -18,6 +18,7 @@
         - [Mission Control](#mission-control)
         - [Keyboard](#keyboard)
         - [Input Sources](#input-sources)
+        - [Screenshots](#screenshots)
         - [Spotlight](#spotlight)
         - [Function Keys](#function-keys)
         - [Modifier Keys](#modifier-keys)
@@ -53,6 +54,10 @@ Move focus to next window переключает окна внутри груп�
 #### Input Sources
 
 <img src="./macos/input-sources.png" width="500"/>
+
+#### Screenshots
+
+<img src="./macos/screenshots.png" width="500"/>
 
 #### Spotlight
 

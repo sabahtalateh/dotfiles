@@ -54,17 +54,17 @@ https://karabiner-elements.pqrs.org
 
 Инструмент для настройки кастомных сочетаний клавиш, например `Cmd+h/j/k/l` можно назначить на стрелки. Навигация будет более удобная
 
-После установки заменить `Esc` на `Caps` и наоборот
+#### Меняем `Esc` на `Caps` и наоборот
 
 <img src="./images/karabiner-caps.png" width="600"/>
 <img src="./images/karabiner-esc.png" width="600"/>
 
-Так-же заменить значок параграфа на тильду (только для неамериканских клавиатур)
+#### Меняем значок параграфа на тильду (только для неамериканских клавиатур)
 
 <img src="./images/karabiner-nonusbackslash.png" width="600"/>
 <img src="./images/karabiner-tilde.png" width="600"/>
 
-Полный конфиг простых замен
+#### Полный конфиг простых замен
 
 <img src="./images/karabiner-config.png" width="600"/
 

@@ -42,7 +42,9 @@ https://www.raycast.com
 
 Замена `Spotlight`
 
-После установки отключить хоткей для `Spotlight` и поставить этот хоткей на `Raycast`
+После установки нужно отключить хоткей для `Spotlight` в `System Settings -> Keyboard -> Keyboard Shortcuts -> Spotlight` и поставить этот хоткей на `Raycast`
+
+<img src="./images/disable-spotlight-hotkey.png" width="600"/>
 
 
 ### Karabiner
@@ -112,13 +114,13 @@ https://brew.sh
 
 Включается в Control Center.
 
-<img src="./macos/stage-manager.png" width="300"/>
+<img src="./images/stage-manager.png" width="300"/>
 
 ### Desktop & Dock
 
-<img src="./macos/desktop-and-dock-1.png" width="600"/>
-<img src="./macos/desktop-and-dock-2.png" width="600"/>
-<img src="./macos/desktop-and-dock-3.png" width="600"/>
+<img src="./images/desktop-and-dock-1.png" width="600"/>
+<img src="./images/desktop-and-dock-2.png" width="600"/>
+<img src="./images/desktop-and-dock-3.png" width="600"/>
 
 ### Keyboard Shortcuts
 Настраиваем 
@@ -128,39 +130,39 @@ System Settings -> Keyboard -> Keyboard Shortcuts
 
 #### Launchpad & Dock
 
-<img src="./macos/launchpad-and-dock.png" width="600"/>
+<img src="./images/launchpad-and-dock.png" width="600"/>
 
 #### Mission Control
 
-<img src="./macos/mission-control.png" width="600"/>
+<img src="./images/mission-control.png" width="600"/>
 
 #### Keyboard
 
 Move focus to next window переключает окна внутри группы в режиме Stage Manager. Это удобно.
 
-<img src="./macos/keyboard.png" width="600"/>
+<img src="./images/keyboard.png" width="600"/>
 
 #### Input Sources
 
-<img src="./macos/input-sources.png" width="600"/>
+<img src="./images/input-sources.png" width="600"/>
 
 #### Screenshots
 
-<img src="./macos/screenshots.png" width="600"/>
+<img src="./images/screenshots.png" width="600"/>
 
 #### Spotlight
 
 Отключаем Spotlight, вместо него будет использоваться Raycast.
 
-<img src="./macos/spotlight.png" width="600"/>
+<img src="./images/spotlight.png" width="600"/>
 
 #### Function Keys
 
-<img src="./macos/function-keys.png" width="600"/>
+<img src="./images/function-keys.png" width="600"/>
 
 #### Modifier Keys
 
-<img src="./macos/modifier-keys.png" width="600"/>
+<img src="./images/modifier-keys.png" width="600"/>
 
 
 

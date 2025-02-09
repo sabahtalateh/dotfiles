@@ -5,7 +5,7 @@
 - [Настройки системы](#настройки-системы)
     - [Stage Manager](#stage-manager)
     - [Keyboard shortcuts](#keyboard-shortcuts)
-        - [Launchpad & Dock](#Launchpad & Dock)
+        - [Launchpad & Dock](#launchpad--dock)
 
 ## Настройки системы
 

@@ -16,6 +16,11 @@
     - [Keyboard shortcuts](#keyboard-shortcuts)
         - [Launchpad & Dock](#launchpad--dock)
         - [Mission Control](#mission-control)
+        - [Keyboard](#keyboard)
+        - [Input Sources](#input-sources)
+        - [Spotlight](#spotlight)
+        - [Function Keys](#function-keys)
+        - [Modifier Keys](#modifier-keys)
 
 ## Настройки Системы
 
@@ -33,35 +38,35 @@ System Settings -> Keyboard -> Keyboard Shortcuts
 
 #### Launchpad & Dock
 
-<img src="./macos/launchpad-and-dock.png" width="400"/>
+<img src="./macos/launchpad-and-dock.png" width="500"/>
 
 #### Mission Control
 
-<img src="./macos/mission-control.png" width="400"/>
+<img src="./macos/mission-control.png" width="500"/>
 
 #### Keyboard
 
 Move focus to next window переключает окна внутри группы в режиме Stage Manager. Это удобно.
 
-<img src="./macos/keyboard.png" width="400"/>
+<img src="./macos/keyboard.png" width="500"/>
 
 #### Input Sources
 
-<img src="./macos/input-sources.png" width="400"/>
+<img src="./macos/input-sources.png" width="500"/>
 
 #### Spotlight
 
 Отключаем Spotlight, вместо него будет использоваться Raycast.
 
-<img src="./macos/spotlight.png" width="400"/>
+<img src="./macos/spotlight.png" width="500"/>
 
 #### Function Keys
 
-<img src="./macos/function-keys.png" width="400"/>
+<img src="./macos/function-keys.png" width="500"/>
 
 #### Modifier Keys
 
-<img src="./macos/modifier-keys.png" width="400"/>
+<img src="./macos/modifier-keys.png" width="500"/>
 
 ## Что надо установить руками
 

@@ -137,10 +137,12 @@ https://karabiner-elements.pqrs.org
 
 Инструмент для настройки кастомных сочетаний клавиш, например `Cmd+h/j/k/l` можно назначить на стрелки. Навигация будет более удобная
 
+
 #### Меняем `Esc` на `Caps` и наоборот
 
 <img src="./images/karabiner-caps.png" width="600"/>
 <img src="./images/karabiner-esc.png" width="600"/>
+
 
 #### Меняем значок параграфа (кнопка под `Esc`) на тильду
 
@@ -149,9 +151,11 @@ https://karabiner-elements.pqrs.org
 <img src="./images/karabiner-nonusbackslash.png" width="600"/>
 <img src="./images/karabiner-tilde.png" width="600"/>
 
+
 #### Полный конфиг простых замен
 
 <img src="./images/karabiner-config.png" width="600"/>
+
 
 #### Сложные замены
 
@@ -199,6 +203,7 @@ https://apps.apple.com/ru/app/monitorcontrol-lite/id1595464182?l=en-GB&mt=12
 ### Keyboard Clean Tool
 
 https://folivora.ai/keyboardcleantool
+
 
 ### Ghostty
 

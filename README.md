@@ -5,29 +5,30 @@
 - [Настройки системы](#настройки-системы)
     - [Stage Manager](#stage-manager)
     - [Keyboard shortcuts](#keyboard-shortcuts)
+        - [Launchpad & Dock](#Launchpad & Dock)
 
 ## Настройки системы
 
 ### Stage Manager
-
 Включается в Control Center
-
 <img src="./macos/stage-manager.png" width="300"/>
 
 ### Keyboard shortcuts
-
 Настраиваем 
 ```
 Settings -> Keyboard -> Keyboard Shortcuts
 ```
 
-- Launchpad & Dock ![Launchpad & Dock](./macos/1.png)
+#### Launchpad & Dock
+<img src="./macos/launchpad-and-dock.png" width="300"/>
+
+<!-- -  ![Launchpad & Dock](./macos/1.png)
 - [Mission Control](2.png)
 - [Keyboard](3.1.png) (Move focus to next window is important)
 - [Input Sources](4.png)
 - [Spotlight](5.png)
 - [Function Keys](6.png)
-- [Modifier Keys](7.png)
+- [Modifier Keys](7.png) -->
 
 ## Что надо установить руками
 

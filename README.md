@@ -54,7 +54,6 @@ https://github.com/sabahtalateh/init-system
 
 ### Keyboard Shortcuts
 
-Настраиваем 
 ```
 System Settings -> Keyboard -> Keyboard Shortcuts
 ```
@@ -62,44 +61,56 @@ System Settings -> Keyboard -> Keyboard Shortcuts
 
 #### Launchpad & Dock
 
+Тут пофигу что настроено, но на всякий случай вот картинка
+
 <img src="./images/launchpad-and-dock.png" width="600"/>
 
 
 #### Mission Control
+
+Тут нас интерисует только `Show Desktop`, эта команда убирает все окна и показывает рабочий стол
 
 <img src="./images/mission-control.png" width="600"/>
 
 
 #### Keyboard
 
-Move focus to next window переключает окна внутри группы в режиме Stage Manager. Это удобно.
+Тут нас интерисует только `Move focus to next window`, эта команда переключает окна внутри группы в режиме `Stage Manager`. Это есть мой основной способ работы
 
 <img src="./images/keyboard.png" width="600"/>
 
 
 #### Input Sources
 
+Тут настраиваем `Select the previous input source` для переключения языка
+
 <img src="./images/input-sources.png" width="600"/>
 
 
 #### Screenshots
+
+Тут ничего не менял, вроде по дефолту вот так нормально. Основная комбинация это `Shift+Cmd+5` но можно вызвать и из `Raycast`-а
 
 <img src="./images/screenshots.png" width="600"/>
 
 
 #### Spotlight
 
-Отключаем Spotlight, вместо него будет использоваться Raycast.
+Отключаем `Show Spotlight search`, вместо него будет использоваться [Raycast](#raycast)
 
 <img src="./images/spotlight.png" width="600"/>
 
 
 #### Function Keys
 
+Тут по дефолту вроде так
+
 <img src="./images/function-keys.png" width="600"/>
 
 
 #### Modifier Keys
+
+И тут по дефолту вроде так
 
 <img src="./images/modifier-keys.png" width="600"/>
 

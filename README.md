@@ -38,18 +38,19 @@ https://github.com/sabahtalateh/init-system
 
 ### Raycast
 
+https://www.raycast.com
+
 Замена `Spotlight`
 
 После установки отключить хоткей для `Spotlight` и поставить этот хоткей на `Raycast`
 
-https://www.raycast.com
-
 
 ### Karabiner
 
-Инструмент для настройки кастомных сочетаний клавиш, например `Cmd+h/j/k/l` можно назначить на стрелки. Навигация будет более удобная
-
 https://karabiner-elements.pqrs.org
+
+
+Инструмент для настройки кастомных сочетаний клавиш, например `Cmd+h/j/k/l` можно назначить на стрелки. Навигация будет более удобная
 
 
 ### Unsplash

@@ -60,7 +60,9 @@ https://karabiner-elements.pqrs.org
 <img src="./images/karabiner-caps.png" width="600"/>
 <img src="./images/karabiner-esc.png" width="600"/>
 
-#### Меняем значок параграфа (кнопка под `Esc`) на тильду (только для неамериканских клавиатур)
+#### Меняем значок параграфа (кнопка под `Esc`) на тильду
+
+Это кнопка располагается под `Esc` на неамериканских клавиатурах. Для американских клавиатур этого делать не надо
 
 <img src="./images/karabiner-nonusbackslash.png" width="600"/>
 <img src="./images/karabiner-tilde.png" width="600"/>

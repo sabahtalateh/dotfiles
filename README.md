@@ -1,7 +1,7 @@
 # dotfiles
 
-
 ## TODO:
+- Записать ролик
 - Karabiner
 - Raycast
 - use links whe possible

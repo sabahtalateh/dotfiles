@@ -2,13 +2,15 @@
 
 ## Оглавление
 
+
+
 ## Настройки системы
 
 ### Stage Manage
 
 Включается в Control Center
 
-![Launchpad & Dock](./macos/stage-manager.png)
+<img src="./macos/stage-manager.png" width="200"/>
 
 ### Keyboard shortcuts
 

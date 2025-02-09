@@ -1,6 +1,8 @@
 # dotfiles
 
+
 ## TODO:
+- Karabiner
 - Raycast
 - use links not copies
 - brew (https://brew.sh)
@@ -10,7 +12,7 @@
 - lf + config from .zshrc
 
 ## Оглавление
-
+- [Порядок настройки](#порядок-настройки)
 - [Настройки системы](#настройки-системы)
     - [Stage Manager](#stage-manager)
     - [Keyboard shortcuts](#keyboard-shortcuts)
@@ -22,6 +24,12 @@
         - [Spotlight](#spotlight)
         - [Function Keys](#function-keys)
         - [Modifier Keys](#modifier-keys)
+
+## Порядок настройки
+
+1. Karabiner
+2. 2
+
 
 ## Настройки Системы
 

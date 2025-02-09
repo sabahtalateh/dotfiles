@@ -8,7 +8,7 @@
 
 Включается в Control Center
 
-![Launchpad & Dock](./macos/1.png)
+![Launchpad & Dock](./macos/stage-manager.png)
 
 ### Keyboard shortcuts
 

@@ -2,7 +2,7 @@
 
 ## Оглавление
 
-
+- [Настройки системы](#настройки-системы)
 
 ## Настройки системы
 
@@ -10,7 +10,7 @@
 
 Включается в Control Center
 
-<img src="./macos/stage-manager.png" width="200"/>
+<img src="./macos/stage-manager.png" max-width="300"/>
 
 ### Keyboard shortcuts
 

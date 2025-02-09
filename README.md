@@ -11,6 +11,8 @@
 - fzf
 - lf + config from .zshrc
 
+https://github.com/sabahtalateh/init-system
+
 ## Оглавление
 - [Порядок настройки](#порядок-настройки)
 - [Настройки системы](#настройки-системы)

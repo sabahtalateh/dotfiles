@@ -54,35 +54,37 @@ https://karabiner-elements.pqrs.org
 
 ### Unsplash
 
-Кросивые обои
-
 https://apps.apple.com/ru/app/unsplash-wallpapers/id1284863847?l=en-GB&mt=12
+
+Кросивые обои
 
 
 ### PastePal
 
 https://apps.apple.com/ru/app/clipboard-manager-pastepal/id1503446680?l=en-GB
 
+Клипборд с историей
+
 
 ### Hidden Bar
 
-Прячет элементы меню когда их много
-
 https://apps.apple.com/ru/app/hidden-bar/id1452453066?l=en-GB&mt=12
+
+Прячет элементы меню когда их много
 
 
 ### Buho Cleaner
 
-В бесплатной версии можно проанализировать используемое место на диске и руками удалить большие папки
-
 https://www.drbuho.com/buhocleaner/download
+
+В бесплатной версии можно проанализировать используемое место на диске и руками удалить большие папки
 
 
 ### Monitor Control
 
-Управление яркостью внешнего монитора так-же как встроенного дисплея
-
 https://apps.apple.com/ru/app/monitorcontrol-lite/id1595464182?l=en-GB&mt=12
+
+Управление яркостью внешнего монитора так-же как встроенного дисплея
 
 
 ### Keyboard Clean Tool
@@ -91,9 +93,9 @@ https://folivora.ai/keyboardcleantool
 
 ### Ghostty
 
-Терминал
-
 https://ghostty.org
+
+Терминал
 
 
 ### Brew
@@ -101,7 +103,6 @@ https://ghostty.org
 Пакетный менеджер
 
 https://brew.sh
-
 
 
 ## Настройки Системы

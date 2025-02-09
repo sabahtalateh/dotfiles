@@ -45,6 +45,7 @@ https://www.raycast.com
 После установки нужно отключить хоткей для `Spotlight` в `System Settings -> Keyboard -> Keyboard Shortcuts -> Spotlight` и поставить этот хоткей на `Raycast`
 
 <img src="./images/disable-spotlight-hotkey.png" width="600"/>
+<img src="./images/raycast-hotkey.png" width="600"/>
 
 
 ### Karabiner

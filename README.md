@@ -35,28 +35,54 @@ https://github.com/sabahtalateh/init-system
 
 ## Что надо установить руками
 
-### Brew
-
-https://brew.sh
-
-### Karabiner
-
-https://karabiner-elements.pqrs.org
 
 ### Raycast
 
+Замена `Spotlight`
+
+После установки отключить хоткей для `Spotlight` и поставить этот хоткей на `Raycast`
+
 https://www.raycast.com
 
-После установки отключить хоткей для спотлайта и поставить этот хоткей на рэйкаст
+
+### Karabiner
+
+Инструмент для настройки кастомных сочетаний клавиш, например `Cmd+h/j/k/l` можно назначить на стрелки. Навигация будет более удобная
+
+https://karabiner-elements.pqrs.org
+
 
 ### Unsplash
 
+Тул 
+
 https://apps.apple.com/ru/app/unsplash-wallpapers/id1284863847?l=en-GB&mt=12
+
 
 ### PastePal
 
 https://apps.apple.com/ru/app/clipboard-manager-pastepal/id1503446680?l=en-GB
 
+
+### Hidden Bar
+
+Прячет элементы меню когда их много
+
+https://apps.apple.com/ru/app/hidden-bar/id1452453066?l=en-GB&mt=12
+
+
+### Ghostty
+
+Терминал
+
+https://ghostty.org
+
+
+### Brew
+
+Пакетный менеджер
+
+https://brew.sh
 
 
 

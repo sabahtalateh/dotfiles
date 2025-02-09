@@ -26,6 +26,30 @@
         - [Function Keys](#function-keys)
         - [Modifier Keys](#modifier-keys)
 
+## Что надо установить руками
+
+### Brew
+
+https://brew.sh
+
+### Karabiner
+
+https://karabiner-elements.pqrs.org
+
+### Raycast
+
+https://www.raycast.com
+
+После установки отключить хоткей для спотлайта и поставить этот хоткей на рэйкаст
+
+### Unsplash
+
+https://apps.apple.com/ru/app/unsplash-wallpapers/id1284863847?l=en-GB&mt=12
+
+### PastePal
+
+https://apps.apple.com/ru/app/clipboard-manager-pastepal/id1503446680?l=en-GB
+
 ## Порядок настройки
 
 1. Ghostty
@@ -89,14 +113,6 @@ Move focus to next window переключает окна внутри груп�
 
 <img src="./macos/modifier-keys.png" width="600"/>
 
-## Что надо установить руками
 
-### Brew
-
-https://brew.sh
-
-### Karabiner
-
-https://karabiner-elements.pqrs.org
 
 

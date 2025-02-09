@@ -3,10 +3,12 @@
 ## Оглавление
 
 - [Настройки системы](#настройки-системы)
+    - [Stage Manager](#stage-manager)
+    - [Keyboard shortcuts](#keyboard-shortcuts)
 
 ## Настройки системы
 
-### Stage Manage
+### Stage Manager
 
 Включается в Control Center
 

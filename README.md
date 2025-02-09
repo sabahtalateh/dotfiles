@@ -15,6 +15,7 @@ https://github.com/sabahtalateh/init-system
 
 ## Оглавление
 - [Порядок настройки](#порядок-настройки)
+- [Что надо установить руками](#что-надо-установить-руками)
 - [Настройки системы](#настройки-системы)
     - [Stage Manager](#stage-manager)
     - [Desktop & Dock](#desktop--dock)
@@ -27,6 +28,10 @@ https://github.com/sabahtalateh/init-system
         - [Spotlight](#spotlight)
         - [Function Keys](#function-keys)
         - [Modifier Keys](#modifier-keys)
+
+## Порядок настройки
+
+1. Сначала ставим руками всё [что надо установить руками](#что-надо-установить-руками)
 
 ## Что надо установить руками
 
@@ -52,11 +57,7 @@ https://apps.apple.com/ru/app/unsplash-wallpapers/id1284863847?l=en-GB&mt=12
 
 https://apps.apple.com/ru/app/clipboard-manager-pastepal/id1503446680?l=en-GB
 
-## Порядок настройки
 
-1. Ghostty
-2. Karabiner
-3. 3
 
 
 ## Настройки Системы

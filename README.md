@@ -52,8 +52,12 @@ https://www.raycast.com
 
 https://karabiner-elements.pqrs.org
 
-
 Инструмент для настройки кастомных сочетаний клавиш, например `Cmd+h/j/k/l` можно назначить на стрелки. Навигация будет более удобная
+
+После установки заменить `Esc` на `Caps` и наоборот
+
+<img src="./images/karabiner-caps.png" width="600"/>
+<img src="./images/karabiner-esc.png" width="600"/>
 
 
 ### Unsplash

@@ -17,8 +17,8 @@ https://github.com/sabahtalateh/init-system
 
 ## Оглавление
 - [Порядок настройки](#порядок-настройки)
-- [Что надо установить и настроить руками](#что-надо-установить-и-настроить-руками)
 - [Настройки системы](#настройки-системы)
+- [Что надо установить и настроить руками](#что-надо-установить-и-настроить-руками)
     - [Stage Manager](#stage-manager)
     - [Desktop & Dock](#desktop--dock)
     - [Keyboard shortcuts](#keyboard-shortcuts)
@@ -33,7 +33,75 @@ https://github.com/sabahtalateh/init-system
 
 ## Порядок настройки
 
-1. Сначала ставим руками и настраиваем всё [что надо установить и настроить руками](#что-надо-установить-и-настроить-руками)
+1. Сначала [настраиваем систему](#настройки-системы)
+2. Потом ставим и настраиваем руками всё [что надо установить и настроить руками](#что-надо-установить-и-настроить-руками)
+
+## Настройки Системы
+
+### Stage Manager
+
+Включается в Control Center
+
+<img src="./images/stage-manager.png" width="300"/>
+
+
+### Desktop & Dock
+
+<img src="./images/desktop-and-dock-1.png" width="600"/>
+<img src="./images/desktop-and-dock-2.png" width="600"/>
+<img src="./images/desktop-and-dock-3.png" width="600"/>
+
+
+### Keyboard Shortcuts
+
+Настраиваем 
+```
+System Settings -> Keyboard -> Keyboard Shortcuts
+```
+
+
+#### Launchpad & Dock
+
+<img src="./images/launchpad-and-dock.png" width="600"/>
+
+
+#### Mission Control
+
+<img src="./images/mission-control.png" width="600"/>
+
+
+#### Keyboard
+
+Move focus to next window переключает окна внутри группы в режиме Stage Manager. Это удобно.
+
+<img src="./images/keyboard.png" width="600"/>
+
+
+#### Input Sources
+
+<img src="./images/input-sources.png" width="600"/>
+
+
+#### Screenshots
+
+<img src="./images/screenshots.png" width="600"/>
+
+
+#### Spotlight
+
+Отключаем Spotlight, вместо него будет использоваться Raycast.
+
+<img src="./images/spotlight.png" width="600"/>
+
+
+#### Function Keys
+
+<img src="./images/function-keys.png" width="600"/>
+
+
+#### Modifier Keys
+
+<img src="./images/modifier-keys.png" width="600"/>
 
 
 ## Что надо установить и настроить руками
@@ -131,64 +199,6 @@ https://ghostty.org
 https://brew.sh
 
 Пакетный менеджер
-
-
-## Настройки Системы
-
-### Stage Manager
-
-Включается в Control Center.
-
-<img src="./images/stage-manager.png" width="300"/>
-
-### Desktop & Dock
-
-<img src="./images/desktop-and-dock-1.png" width="600"/>
-<img src="./images/desktop-and-dock-2.png" width="600"/>
-<img src="./images/desktop-and-dock-3.png" width="600"/>
-
-### Keyboard Shortcuts
-Настраиваем 
-```
-System Settings -> Keyboard -> Keyboard Shortcuts
-```
-
-#### Launchpad & Dock
-
-<img src="./images/launchpad-and-dock.png" width="600"/>
-
-#### Mission Control
-
-<img src="./images/mission-control.png" width="600"/>
-
-#### Keyboard
-
-Move focus to next window переключает окна внутри группы в режиме Stage Manager. Это удобно.
-
-<img src="./images/keyboard.png" width="600"/>
-
-#### Input Sources
-
-<img src="./images/input-sources.png" width="600"/>
-
-#### Screenshots
-
-<img src="./images/screenshots.png" width="600"/>
-
-#### Spotlight
-
-Отключаем Spotlight, вместо него будет использоваться Raycast.
-
-<img src="./images/spotlight.png" width="600"/>
-
-#### Function Keys
-
-<img src="./images/function-keys.png" width="600"/>
-
-#### Modifier Keys
-
-<img src="./images/modifier-keys.png" width="600"/>
-
 
 
 

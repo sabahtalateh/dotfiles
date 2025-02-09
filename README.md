@@ -1,6 +1,7 @@
 # dotfiles
 
 ## TODO:
+- Сначала установить всё что может потребовать настройки сочетания клавиш (Только Raycast вроде)
 - Использовать realpath для vscode config-а
 - Karabiner
 - Raycast

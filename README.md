@@ -13,7 +13,7 @@ https://karabiner-elements.pqrs.org
 ## TODO:
 - use links not copies
 - brew (https://brew.sh)
-- ghostty
+- ghostty + config
 - zsh + ohmyzsh
-- karabiner config
-- macos system keybindings
+- fzf
+- lf

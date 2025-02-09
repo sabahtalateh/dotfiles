@@ -10,7 +10,7 @@
 
 Включается в Control Center
 
-<img src="./macos/stage-manager.png" max-width="300"/>
+<img src="./macos/stage-manager.png" width="300"/>
 
 ### Keyboard shortcuts
 

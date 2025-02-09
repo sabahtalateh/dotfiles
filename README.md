@@ -16,4 +16,4 @@ https://karabiner-elements.pqrs.org
 - ghostty + config
 - zsh + ohmyzsh
 - fzf
-- lf
+- lf + config from .zshrc

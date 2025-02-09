@@ -59,6 +59,15 @@ https://karabiner-elements.pqrs.org
 <img src="./images/karabiner-caps.png" width="600"/>
 <img src="./images/karabiner-esc.png" width="600"/>
 
+Так-же заменить значок параграфа на тильду (только для неамериканских клавиатур)
+
+<img src="./images/karabiner-nonusbackslash.png" width="600"/>
+<img src="./images/karabiner-tilde.png" width="600"/>
+
+Полный конфиг простых замен
+
+<img src="./images/karabiner-config.png" width="600"/
+
 
 ### Unsplash
 

@@ -17,26 +17,15 @@ https://github.com/sabahtalateh/init-system
 
 ## Оглавление
 - [Порядок настройки](#порядок-настройки)
-- [Настройки системы](#настройки-системы)
+- [Настройка системы](#настройка-системы)
 - [Что надо установить и настроить руками](#что-надо-установить-и-настроить-руками)
-    - [Stage Manager](#stage-manager)
-    - [Desktop & Dock](#desktop--dock)
-    - [Keyboard shortcuts](#keyboard-shortcuts)
-        - [Launchpad & Dock](#launchpad--dock)
-        - [Mission Control](#mission-control)
-        - [Keyboard](#keyboard)
-        - [Input Sources](#input-sources)
-        - [Screenshots](#screenshots)
-        - [Spotlight](#spotlight)
-        - [Function Keys](#function-keys)
-        - [Modifier Keys](#modifier-keys)
 
 ## Порядок настройки
 
-1. Сначала [настраиваем систему](#настройки-системы)
+1. Сначала [настраиваем систему](#настройка-системы)
 2. Потом ставим и настраиваем руками всё [что надо установить и настроить руками](#что-надо-установить-и-настроить-руками)
 
-## Настройки Системы
+## Настройка Системы
 
 ### Stage Manager
 

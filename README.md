@@ -10,6 +10,7 @@
 - zsh + ohmyzsh
 - fzf
 - lf + config from .zshrc
+- Подумать как можно использовать `Esc` в кейбиндах, а то чо он никак нигде не используется
 
 https://github.com/sabahtalateh/init-system
 
@@ -59,7 +60,7 @@ https://karabiner-elements.pqrs.org
 <img src="./images/karabiner-caps.png" width="600"/>
 <img src="./images/karabiner-esc.png" width="600"/>
 
-#### Меняем значок параграфа на тильду (только для неамериканских клавиатур)
+#### Меняем значок параграфа (кнопка под `Esc`) на тильду (только для неамериканских клавиатур)
 
 <img src="./images/karabiner-nonusbackslash.png" width="600"/>
 <img src="./images/karabiner-tilde.png" width="600"/>

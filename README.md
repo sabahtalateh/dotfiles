@@ -91,7 +91,7 @@ System Settings -> Keyboard -> Keyboard Shortcuts
 
 #### Screenshots
 
-Тут ничего не менял, вроде по дефолту вот так нормально. Основная комбинация это `Shift+Cmd+5` но можно вызвать и из `Raycast`-а
+Тут ничего не менял, вроде по дефолту вот так нормально. Основная комбинация это `Shift+Cmd+5` но можно написать `screenshot` в `Raycast`-е и не запоминать такие длинные комбинации
 
 <img src="./images/screenshots.png" width="600"/>
 
@@ -193,7 +193,7 @@ https://www.drbuho.com/buhocleaner/download
 
 https://apps.apple.com/ru/app/monitorcontrol-lite/id1595464182?l=en-GB&mt=12
 
-Управление яркостью внешнего монитора так-же как встроенного дисплея
+Управление яркостью внешнего монитора кнопками `f1` и `f2`
 
 
 ### Keyboard Clean Tool

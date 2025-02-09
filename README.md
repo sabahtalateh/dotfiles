@@ -15,7 +15,7 @@
 - [Порядок настройки](#порядок-настройки)
 - [Настройки системы](#настройки-системы)
     - [Stage Manager](#stage-manager)
-    - [Desktop & Dock](#)
+    - [Desktop & Dock](#desktop--dock)
     - [Keyboard shortcuts](#keyboard-shortcuts)
         - [Launchpad & Dock](#launchpad--dock)
         - [Mission Control](#mission-control)

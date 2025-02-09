@@ -47,6 +47,8 @@ https://github.com/sabahtalateh/init-system
 
 ### Desktop & Dock
 
+Тут просто выставляем всё как на картинках, настроек много, поэтому картинок 3
+
 <img src="./images/desktop-and-dock-1.png" width="600"/>
 <img src="./images/desktop-and-dock-2.png" width="600"/>
 <img src="./images/desktop-and-dock-3.png" width="600"/>

@@ -1,7 +1,7 @@
 # dotfiles
 
 ## TODO:
-- Записать ролик
+- использовать realpath для vscode links
 - Karabiner
 - Raycast
 - use links whe possible
@@ -11,6 +11,7 @@
 - fzf
 - lf + config from .zshrc
 - Подумать как можно использовать `Esc` в кейбиндах, а то чо он никак нигде не используется
+- Записать ролик
 
 https://github.com/sabahtalateh/init-system
 

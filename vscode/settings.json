@@ -115,7 +115,7 @@
                 },
                 // Константы фиолетовые
                 {
-                    "scope": "variable.other.constant.go",
+                    "scope": "variable.other.constant",
                     "settings": {
                         "foreground": "#871094",
                     }
@@ -123,7 +123,7 @@
                 // Констатны языка и встроенно типы синие. Ex: nil
                 {
                     "scope": [
-                        "constant.language",
+                        "constant.language.null",
                         "storage.type",
                     ],
                     "settings": {

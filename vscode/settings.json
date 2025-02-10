@@ -64,12 +64,16 @@
 
             // Цвет выделения
             "editor.selectionBackground": "#fcf4d4",
+            
             // Цвет участков текста, совпадающих с выделением
             "editor.selectionHighlightBackground":"#fcf4d4",
 
-            "editor.wordHighlightBackground": "#fcf4d4", // Цвет фона подсветки слова
-            "editor.wordHighlightStrongBackground": "#fcf4d4", // Цвет фона для сильной подсветки
-            "editor.selectionHighlightBackground": "#fcf4d4", // Цвет фона для выделения всех вхождений слова
+            // Цвет фона подсветки слова под курсором
+            "editor.wordHighlightBackground": "#fcf4d4", 
+            "editor.wordHighlightStrongBackground": "#fcf4d4",
+
+            // Цвет фона подсветки слов, совпадающих со словом под курсором
+            "editor.selectionHighlightBackground": "#fcf4d4",
         }
     },
 

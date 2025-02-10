@@ -72,5 +72,7 @@ ln -s -f $(realpath vscode/snippets) "${SNIPPETS_DIR}"
 echo "snippets linked"
 
 
+### Install extensions
+
 echo "Install VSCode extensions"
 cat vscode/extensions.txt | xargs -L 1 code --force --install-extension

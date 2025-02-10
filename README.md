@@ -1,6 +1,7 @@
 # dotfiles
 
 ## TODO:
+- Ролик по настройке систеиы
 - Сначала установить всё что может потребовать настройки сочетания клавиш (Только Raycast вроде)
 - Использовать realpath для vscode config-а
 - Karabiner
@@ -43,6 +44,12 @@ https://github.com/sabahtalateh/init-system
 <img src="./images/desktop-and-dock-2.png" width="600"/>
 <img src="./images/desktop-and-dock-3.png" width="600"/>
 
+### Keyboard
+
+Общие настройки клавиатуры. Настроек много, поэтому 2 картинки
+
+<img src="./images/keyboard-1.png" width="600"/>
+<img src="./images/keyboard-2.png" width="600"/>
 
 ### Keyboard Shortcuts
 

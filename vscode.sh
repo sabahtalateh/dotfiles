@@ -12,6 +12,7 @@ KEYBINDINGS_BKP_FILE="${SETTINGS_DIR}/keybindings.json.bkp"
 SNIPPETS_DIR="${SETTINGS_DIR}/snippets"
 SNIPPETS_DIR_BKP="${SETTINGS_DIR}/snippets.bkp"
 
+
 ### Link settings
 
 echo "Link settings.json"

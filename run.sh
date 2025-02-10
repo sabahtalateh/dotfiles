@@ -1,1 +1,1 @@
-ln $(realpath ghostty/config) ${HOME}/.config/ghostty/config
+ln -s $(realpath ghostty/config) ${HOME}/.config/ghostty/config

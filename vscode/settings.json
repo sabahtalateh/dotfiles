@@ -123,7 +123,8 @@
                 // Констатны языка и встроенно типы синие. Ex: nil
                 {
                     "scope": [
-                        "constant.language.null",
+                        // "constant.language.null", // почему-то nil не красится в синий цвет
+                        // его перезаписывает фиолетовый цвет выше. ну и хрен с ним
                         "storage.type",
                     ],
                     "settings": {

@@ -66,6 +66,10 @@
             "editor.selectionBackground": "#fcf4d4",
             // Цвет участков текста, совпадающих с выделением
             "editor.selectionHighlightBackground":"#fcf4d4",
+
+            "editor.wordHighlightBackground": "#fcf4d4", // Цвет фона подсветки слова
+            "editor.wordHighlightStrongBackground": "#fcf4d4", // Цвет фона для сильной подсветки
+            "editor.selectionHighlightBackground": "#fcf4d4", // Цвет фона для выделения всех вхождений слова
         }
     },
 

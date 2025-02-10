@@ -1,8 +1,8 @@
 {
-    // Дефолтная цветовая схема, на неё применяются 
+    // Дефолтная цветовая схема, на неё применяются
     // настройки из editor.tokenColorCustomizations
     // и workbench.colorCustomizations
-    "workbench.colorTheme": "Default Light Modern",
+    "workbench.colorTheme": "Light Modern. Black on White",
 
     // Шрифт
     "editor.fontFamily": "'Hack', Menlo, Monaco, 'Courier New', monospace",
@@ -50,26 +50,29 @@
     // Не показывать диалог при синхронизации веток
     "git.confirmSync": false,
 
+    // Не показывать Copilot
+    "chat.commandCenter.enabled": false,
+
     // Настройки темы
     "workbench.colorCustomizations": {
-        "[Default Light Modern]": {
+        "[Light Modern. Black on White]": {
             // Подсветка активного найденного слова при поиске
-            "editor.findMatchBackground": "#FCD47E",
+            "editor.findMatchBackground": "#fcd47e",
 
             // Подсветка неактивных найденных слов при поиске
-            "editor.findMatchHighlightBackground": "#ffcc0037",
+            "editor.findMatchHighlightBackground": "#fcf4d4",
 
             // Цвет выделения
-            "editor.selectionBackground": "#FCF4D4",
+            "editor.selectionBackground": "#fcf4d4",
             // Цвет участков текста, совпадающих с выделением
-            "editor.selectionHighlightBackground":"#FCF4D4",
-        } 
+            "editor.selectionHighlightBackground":"#fcf4d4",
+        }
     },
-    
+
     // Настройки подсветки синтаксиса
-    // применяются с темой "Default Light Modern"
+    // применяются с моей темой Light Modern. Black on White
     "editor.tokenColorCustomizations": {
-        "[Default Light Modern]": {
+        "[Light Modern. Black on White]": {
             // Комментарии серые
             "comments": "#8c8c8c",
 
@@ -86,8 +89,9 @@
             // Всё остальное чёрное
             "variables": "#000000",
             "types": "#000000",
+
             "textMateRules": [
-                // Комментарии серые
+                // Комментарии серые и с наклоном
                 {
                     "scope": "comment",
                     "settings": {
@@ -116,32 +120,44 @@
                         "foreground": "#0033b3",
                     }
                 },
-                // Встроенные типы синие
                 {
+                    "name": "Types declaration and references",
                     "scope": [
-                        "storage.type.byte.go",
-                        "storage.type.uintptr.go",
-                        "storage.type.boolean.go",
-                        "storage.type.numeric.go",
-                        "storage.type.rune.go",
-                        "storage.type.string.go",
-                        "storage.type.error.go",
+                        // "support.class",
+                        // "support.type",
+                        // "entity.name.type",
+                        "entity.name.namespace",
+                        // "entity.other.attribute",
+                        // "entity.name.scope-resolution",
+                        // "entity.name.class",
+                        // "storage.type.numeric.go",
+                        // "storage.type.byte.go",
+                        // "storage.type.boolean.go",
+                        // "storage.type.string.go",
+                        // "storage.type.uintptr.go",
+                        // "storage.type.error.go",
+                        // "storage.type.rune.go",
+                        // "storage.type.cs",
+                        // "storage.type.generic.cs",
+                        // "storage.type.modifier.cs",
+                        // "storage.type.variable.cs",
+                        // "storage.type.annotation.java",
+                        // "storage.type.generic.java",
+                        // "storage.type.java",
+                        // "storage.type.object.array.java",
+                        // "storage.type.primitive.array.java",
+                        // "storage.type.primitive.java",
+                        // "storage.type.token.java",
+                        // "storage.type.groovy",
+                        // "storage.type.annotation.groovy",
+                        // "storage.type.parameters.groovy",
+                        // "storage.type.generic.groovy",
+                        // "storage.type.object.array.groovy",
+                        // "storage.type.primitive.array.groovy",
+                        // "storage.type.primitive.groovy"
                     ],
                     "settings": {
-                        "foreground": "#0033b3"
-                    }
-                },
-                // Всё остальное чёрное
-                {
-                    "scope": "variable.other.constant",
-                    "settings": {
-                        "foreground": "#000000",
-                    }
-                },
-                {
-                    "scope": "invalid",
-                    "settings": {
-                        "foreground": "#000000",
+                        "foreground": "#267f99"
                     }
                 },
             ],

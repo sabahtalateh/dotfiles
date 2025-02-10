@@ -3,3 +3,4 @@ liuchao.go-struct-tag
 colch.quick-open-prefill-selection
 rajratnamaitry.open-folder-in-new-vscode
 sabaken.good-icons
+sabaken.lmbow

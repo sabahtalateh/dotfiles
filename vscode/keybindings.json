@@ -142,4 +142,19 @@
         "command": "-goToPreviousReference",
         "when": "inReferenceSearchEditor || referenceSearchVisible"
     },
+    // Normal (???) panel toggle
+    // {
+    //     "key": "cmd+j",
+    //     "command": "workbench.action.focusPanel",
+    //     "when": "!panelFocus"
+    // },
+    // {
+    //     "key": "cmd+j",
+    //     "command": "workbench.action.closePanel",
+    //     "when": "panelFocus"
+    // },
+    // {
+    //     "key": "cmd+j",
+    //     "command": "-workbench.action.togglePanel"
+    // },
 ]

@@ -1,7 +1,7 @@
 {
     // Дефолтная цветовая схема, на неё применяются
     // настройки из editor.tokenColorCustomizations
-    // editor.semanticTokenColorCustomization 
+    // editor.semanticTokenColorCustomization
     // и workbench.colorCustomizations
     // Устанавливается из extensions.txt (sabaken.lmbow)
     "workbench.colorTheme": "Light Modern. Black on White",
@@ -41,7 +41,7 @@
 
     // Не показывать Copilot
     "chat.commandCenter.enabled": false,
-    
+
     // Настройки темы
     "workbench.colorCustomizations": {
         "[Light Modern. Black on White]": {
@@ -56,7 +56,7 @@
 
             // Цвет участков текста, совпадающих с выделением
             // "editor.selectionHighlightBackground":"#fcf4d4",
-            
+
             // Цвет фона подсветки слова под курсором
             // "editor.wordHighlightBackground": "#fcf4d4",
             // "editor.wordHighlightStrongBackground": "#fcf4d4",
@@ -71,20 +71,33 @@
     "editor.semanticTokenColorCustomizations": {
         "[Light Modern. Black on White]": {
             "rules": {
-                // Неймспейсы коричневые
-                "namespace": "#805900",
-
-                // Константы языка синие. Ex: nil
-                "variable.defaultLibrary": "#0033b3",
-
                 // Комментарии сервые и с наклоном
                 "comment": {
                     "foreground": "#8c8c8c",
                     "fontStyle": "italic"
                 },
 
+                // Неймспейсы коричневые
+                "namespace": "#805900",
+
                 // Ключевые слова синие
                 "keyword": "#0033b3",
+
+                // Цифры синие
+                "number": "#0033b3",
+
+                // Встроенные типы синие
+                "type.defaultLibrary": "#0033b3",
+
+                // Константы языка синие. Ex: nil
+                "variable.defaultLibrary": "#0033b3",
+
+                // Функции стандартной библиотеки синие
+                "function.defaultLibrary": "#0033b3",
+
+                // Методы и функции сине-зелёные
+                "method": "#00627a",
+                "function": "#00627A",
             }
         }
     },
@@ -94,11 +107,11 @@
             "comments": "#8c8c8c",
 
             // Ключевые слова и цифры синие
-            "keywords": "#0033b3",
-            "numbers": "#0033b3",
+            // "keywords": "#0033b3",
+            // "numbers": "#0033b3",
 
             // Функции сине-зелёные
-            "functions": "#00627a",
+            // "functions": "#00627a",
 
             "textMateRules": [
                 // Комментарии серые и с наклоном
@@ -116,6 +129,20 @@
                         "foreground": "#067d17",
                     }
                 },
+                // Плейсхолдеры в строках синие. Ex: fmt.Sprintf("..%s")
+                {
+                    "scope": "constant.other.placeholder",
+                    "settings": {
+                        "foreground": "#0033b3",
+                    }
+                },
+                // any синий
+                {
+                    "scope": "entity.name.type.any",
+                    "settings": {
+                        "foreground": "#0033b3",
+                    }
+                },
                 // Константы фиолетовые
                 {
                     "scope": "variable.other.constant",
@@ -123,13 +150,14 @@
                         "foreground": "#871094",
                     }
                 },
-                // Плейсхолдеры в fmt.Sprintf("..%s") синие
+                // Функции сине-зелёные
                 {
-                    "scope": "constant.other.placeholder",
+                    "scope": "entity.name.function",
                     "settings": {
-                        "foreground": "#0033b3",
+                        "foreground": "#00627A",
                     }
                 },
+
                 // Ключевые слова синие
                 {
                     "scope": "keyword",
@@ -144,13 +172,7 @@
                 //         "foreground": "#000000",
                 //     }
                 // },
-                // Функции сине-зелёные
-                // {
-                //     "scope": "entity.name.function",
-                //     "settings": {
-                //         "foreground": "#00627A",
-                //     }
-                // },
+
                 // Констатны языка и встроенно типы синие. Ex: nil
                 // {
                 //     "scope": [

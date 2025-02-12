@@ -1,0 +1,33 @@
+# set locale
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+# zsh config
+export ZSH="${HOME}/.oh-my-zsh"
+ZSH_THEME="robbyrussell"
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-direnv)
+source $ZSH/oh-my-zsh.sh
+
+# prompt
+export PS1="%{[36m%}%c%{[00m%} $(git_prompt_info)"
+
+# fuzzyfinder (Ctrl+R)
+source <(fzf --zsh)
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# lf will stay in last opened folder when quit
+alias lf=lfcd
+lfcd() {
+    cd "$(command lf -print-last-dir "$@")"
+}
+
+# default VSCode terminal
+[[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
+
+# golang
+# export PATH="$PATH:$(go env GOPATH)/bin"
+
+# ruby required by brew. Or no?
+export PATH=/opt/homebrew/opt/ruby/bin:$PATH
+export GEM_HOME=$HOME/.gem
+export PATH=$GEM_HOME/bin:$PATH

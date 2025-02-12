@@ -1,0 +1,4 @@
+set hidden false
+
+map <enter> open
+map <backspace2> updir

@@ -4,3 +4,4 @@ colch.quick-open-prefill-selection
 rajratnamaitry.open-folder-in-new-vscode
 sabaken.lmbow
 sabaken.good-icons
+alefragnani.bookmarks

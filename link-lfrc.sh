@@ -18,5 +18,5 @@ if [ -f "${LFRC_FILE}" ] && [ ! -L "${LFRC_FILE}" ]; then
 fi
 
 rm -rf "${LFRC_FILE}"
-mkdir -p dirname
+mkdir -p "${LFRC_DIR}"
 ln -s -f "$(realpath lf/lfrc)" "${LFRC_FILE}"

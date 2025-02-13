@@ -11,5 +11,7 @@ git
 
 ```
 cd ~
-git clone https://github.com/sabahtalateh/dotfiles.git .dotfile
+git clone https://github.com/sabahtalateh/dotfiles.git .dotfiles
 ```
+
+Меняем профиль терминала 

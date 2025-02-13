@@ -9,9 +9,11 @@ git
 
 После установки (долгой) пишем в терминале `git` ещё раз и видим справку гита, значит он работает и можно клонировать репозиторий
 
+Клонировать репозиторий надо в папку `~/.dotfiles`. Все скрипты репозитория расчитаны на этот путь
+
 ```
 cd ~
-git clone https://github.com/sabahtalateh/dotfiles.git .dotfiles
+git clone https://github.com/sabahtalateh/dotfiles.git ~/.dotfiles
 ```
 
 ## Терминал
@@ -27,9 +29,15 @@ git clone https://github.com/sabahtalateh/dotfiles.git .dotfiles
 - Идём в `Profiles` нажимаем на `Man Page Custom` и делаем его дефолтным (кнопка `Default` снизу)
 - Перезапускаем терминал
 
-### Устанавливаем `oh-my-zsh`
+### Устанавливаем `oh-my-zsh` и плагины
 
-https://ohmyz.sh
+- https://ohmyz.sh
+- `./omz-plugins.sh`
+- перезапускаем терминал
 
+### `.zshrc`
+
+- Удаляем всё из файла `~/.zshrc` (`echo "" > ~/.zshrc`)
+- Запускаем `./source-zshrc.sh`
 
 

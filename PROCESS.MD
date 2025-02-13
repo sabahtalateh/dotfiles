@@ -29,6 +29,11 @@ git clone https://github.com/sabahtalateh/dotfiles.git ~/.dotfiles
 - Идём в `Profiles` нажимаем на `Man Page Custom` и делаем его дефолтным (кнопка `Default` снизу)
 - Перезапускаем терминал
 
+### Устанавливаем `brew` и программы
+
+- https://brew.sh
+
+
 ### Устанавливаем `oh-my-zsh` и плагины
 
 - https://ohmyz.sh

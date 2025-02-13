@@ -6,7 +6,7 @@ fi
 
 echo "Link lfrc"
 
-LFRC_DIR="${HOME}/.config/lf/lfrc"
+LFRC_DIR="${HOME}/.config/lf"
 LFRC_FILE="${LFRC_DIR}/lfrc"
 LFRC_BKP_FILE="${LFRC_DIR}/lfrc.bkp"
 

@@ -14,4 +14,9 @@ cd ~
 git clone https://github.com/sabahtalateh/dotfiles.git .dotfiles
 ```
 
-Меняем профиль терминала 
+Меняем профиль терминала
+- Импортируем файл `~/.dotfiles/terminal/Man Page Custom.terminal`
+- `Terminal -> Settings`
+- `On startup, open -> Man Page Custom`
+- Перезапускаем терминал
+

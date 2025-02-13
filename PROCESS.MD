@@ -32,6 +32,8 @@ git clone https://github.com/sabahtalateh/dotfiles.git ~/.dotfiles
 ### Устанавливаем `brew` и программы
 
 - https://brew.sh
+- Внимательно читаем инструкцию и выполняем шаги для добавления `brew` в `$PATH`
+- `./brew-install.sh`
 
 
 ### Устанавливаем `oh-my-zsh` и плагины

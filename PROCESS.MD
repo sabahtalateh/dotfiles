@@ -33,8 +33,12 @@ git clone https://github.com/sabahtalateh/dotfiles.git ~/.dotfiles
 
 - https://brew.sh
 - Внимательно читаем инструкцию и выполняем шаги для добавления `brew` в `$PATH`
-- `./brew-install.sh`
-
+- `./brew-install.sh` установит 
+    - `yq`
+    - `jq`
+    - `tree`
+    - `fzf`
+    - `lf`
 
 ### Устанавливаем `oh-my-zsh` и плагины
 
@@ -46,5 +50,9 @@ git clone https://github.com/sabahtalateh/dotfiles.git ~/.dotfiles
 
 - Удаляем всё из файла `~/.zshrc` (`echo "" > ~/.zshrc`)
 - Запускаем `./source-zshrc.sh`
+
+### lf
+
+`./link-lfrc.sh`
 
 

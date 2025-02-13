@@ -6,8 +6,9 @@ fi
 
 echo "Link lfrc"
 
-LFRC_FILE="${HOME}/.config/lf/lfrc"
-LFRC_BKP_FILE="${HOME}/.config/lf/lfrc.bkp"
+LFRC_DIR="${HOME}/.config/lf/lfrc"
+LFRC_FILE="${LFRC_DIR}/lfrc"
+LFRC_BKP_FILE="${LFRC_DIR}/lfrc.bkp"
 
 # if ${LFRC_FILE} is a file and not a link
 if [ -f "${LFRC_FILE}" ] && [ ! -L "${LFRC_FILE}" ]; then
@@ -17,4 +18,5 @@ if [ -f "${LFRC_FILE}" ] && [ ! -L "${LFRC_FILE}" ]; then
 fi
 
 rm -rf "${LFRC_FILE}"
+mkdir -p dirname
 ln -s -f "$(realpath lf/lfrc)" "${LFRC_FILE}"

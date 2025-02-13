@@ -34,11 +34,11 @@ git clone https://github.com/sabahtalateh/dotfiles.git ~/.dotfiles
 - https://brew.sh
 - Внимательно читаем инструкцию и выполняем шаги для добавления `brew` в `$PATH`
 - `./brew-install.sh` установит 
-    - `yq`
-    - `jq`
-    - `tree`
-    - `fzf`
-    - `lf`
+    - `yq` - yaml query
+    - `jq` - json query
+    - `tree` - файловое дерево
+    - `fzf` - fuzzy finder. после `./source-zshrc.sh` будет работать по Ctrl + R 
+    - `lf` - list files после `./link-lfrc.sh` будут работать `q` и `Enter`
 
 ### Устанавливаем `oh-my-zsh` и плагины
 

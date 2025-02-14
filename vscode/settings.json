@@ -206,4 +206,7 @@
 
     // Подсказки при написании кода по последнему использованию
     "editor.suggestSelection": "recentlyUsedByPrefix",
+
+    // Переносить длинные строки
+    "editor.wordWrap": "on",
 }

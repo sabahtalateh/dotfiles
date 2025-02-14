@@ -19,7 +19,6 @@
 		1. [Function Keys](#FunctionKeys)
 		1. [Modifier Keys](#ModifierKeys)
 1. [Что надо установить и настроить руками](#-1)
-	1. [Raycast](#Raycast)
 	1. [Karabiner](#Karabiner)
 		1. [Меняем `Esc` на `Caps` и наоборот](#EscCaps)
 		1. [Меняем значок параграфа (кнопка под `Esc`) на тильду](#Esc)
@@ -31,47 +30,43 @@
 	1. [Buho Cleaner](#BuhoCleaner)
 	1. [Monitor Control](#MonitorControl)
 	1. [Keyboard Clean Tool](#KeyboardCleanTool)
-	1. [Ghostty](#Ghostty)
     1. [Brew](#Brew)
 
-##  1. TODO:
-- Настроить тему для ghostty как для iterm
+## TODO:
 - Ролик по настройке системы с обзором настроек
 - Сначала установить всё что может потребовать настройки сочетания клавиш (Только Raycast вроде)
 - Karabiner
-- Raycast
 - brew (https://brew.sh)
     - zsh + ohmyzsh
     - brew install yq
     - brew install jq
     - brew install tree
     - brew install fzf
-- ghostty + config
 - Подумать как можно использовать `Esc` в кейбиндах, а то чо он никак нигде не используется
 - Записать ролик
 
 https://github.com/sabahtalateh/init-system
 
-##  2. Оглавление
+## Оглавление
 - [Порядок настройки](#порядок-настройки)
 - [Настройка системы](#настройка-системы)
 - [Что надо установить и настроить руками](#что-надо-установить-и-настроить-руками)
 
-##  3. Порядок настройки
+## Порядок настройки
 
 1. Сначала [настраиваем систему](#настройка-системы)
 2. Потом ставим и настраиваем руками всё [что надо установить и настроить руками](#что-надо-установить-и-настроить-руками)
 
-##  4. Настройка Системы
+## Настройка Системы
 
-###  4.1. Stage Manager
+### Stage Manager
 
 Включаем в `Control Center` в верхнем меню
 
 <img src="./images/stage-manager.png" width="300"/>
 
 
-###  4.2. Desktop & Dock
+### Desktop & Dock
 
 Тут просто выставляем всё как на картинках, настроек много, поэтому картинок 3
 
@@ -79,104 +74,94 @@ https://github.com/sabahtalateh/init-system
 <img src="./images/desktop-and-dock-2.png" width="600"/>
 <img src="./images/desktop-and-dock-3.png" width="600"/>
 
-###  4.3. Keyboard
+### Keyboard
 
 Общие настройки клавиатуры. Настроек много, поэтому 2 картинки
 
 <img src="./images/keyboard-1.png" width="600"/>
 <img src="./images/keyboard-2.png" width="600"/>
 
-###  4.4. Keyboard Shortcuts
+### Keyboard Shortcuts
 
 ```
 System Settings -> Keyboard -> Keyboard Shortcuts
 ```
 
 
-####  4.4.1. Launchpad & Dock
+#### Launchpad & Dock
 
 Тут пофигу что настроено, но на всякий случай вот картинка
 
 <img src="./images/launchpad-and-dock.png" width="600"/>
 
 
-####  4.4.2. Mission Control
+#### Mission Control
 
 Тут нас интерисует только `Show Desktop`, эта команда убирает все окна и показывает рабочий стол
 
 <img src="./images/mission-control.png" width="600"/>
 
 
-####  4.4.3. Keyboard
+#### Keyboard
 
 Тут нас интерисует только `Move focus to next window`, эта команда переключает окна внутри группы в режиме `Stage Manager`. Это есть мой основной способ работы
 
 <img src="./images/keyboard.png" width="600"/>
 
 
-####  4.4.4. Input Sources
+#### Input Sources
 
 Тут настраиваем `Select the previous input source` для переключения языка
 
 <img src="./images/input-sources.png" width="600"/>
 
 
-####  4.4.5. Screenshots
+#### Screenshots
 
-Тут ничего не менял, вроде по дефолту вот так нормально. Основная комбинация это `Shift+Cmd+5` но можно написать `screenshot` в `Raycast`-е и не запоминать такие длинные комбинации
+Тут ничего не менял, вроде по дефолту вот так нормально. Основная комбинация это `Shift+Cmd+5` но можно написать `screenshot` в `spotlight`-е и не запоминать такие длинные комбинации
 
 <img src="./images/screenshots.png" width="600"/>
 
 
-####  4.4.6. Spotlight
+#### Spotlight
+
+TODO: update
 
 Отключаем `Show Spotlight search`, вместо него будет использоваться [Raycast](#raycast)
 
 <img src="./images/spotlight.png" width="600"/>
 
 
-####  4.4.7. Function Keys
+#### Function Keys
 
 Тут по дефолту вроде так
 
 <img src="./images/function-keys.png" width="600"/>
 
 
-####  4.4.8. Modifier Keys
+#### Modifier Keys
 
 И тут по дефолту вроде так
 
 <img src="./images/modifier-keys.png" width="600"/>
 
 
-##  5. Что надо установить и настроить руками
+##  Что надо установить и настроить руками
 
-###  5.1. Raycast
-
-https://www.raycast.com
-
-Замена `Spotlight`
-
-После установки нужно отключить хоткей для `Spotlight` в `System Settings -> Keyboard -> Keyboard Shortcuts -> Spotlight` и поставить этот хоткей на `Raycast`
-
-<img src="./images/disable-spotlight-hotkey.png" width="600"/>
-<img src="./images/raycast-hotkey.png" width="600"/>
-
-
-###  5.2. Karabiner
+### Karabiner
 
 https://karabiner-elements.pqrs.org
 
 Инструмент для настройки кастомных сочетаний клавиш, например `Cmd+h/j/k/l` можно назначить на стрелки. Навигация будет более удобная
 
 
-####  5.2.1. Меняем `Esc` на `Caps` и наоборот
+#### Меняем `Esc` на `Caps` и наоборот
 
 <img src="./images/karabiner-caps.png" width="600"/>
 <img src="./images/karabiner-esc.png" width="600"/>
 
 
-####  5.2.2. Меняем значок параграфа (кнопка под `Esc`) на тильду
+#### Меняем значок параграфа (кнопка под `Esc`) на тильду
 
 Это кнопка располагается под `Esc` на неамериканских клавиатурах. Для американских клавиатур этого делать не надо
 
@@ -184,12 +169,12 @@ https://karabiner-elements.pqrs.org
 <img src="./images/karabiner-tilde.png" width="600"/>
 
 
-####  5.2.3. Полный конфиг простых замен
+#### Полный конфиг простых замен
 
 <img src="./images/karabiner-config.png" width="600"/>
 
 
-####  5.2.4. Сложные замены
+#### Сложные замены
 
 Добавляем через `Add your own rule` все замены из папки [karabiner](./karabiner) кроме `simple.json` (этот файл лежит там на всякий случай)
 
@@ -197,54 +182,47 @@ https://karabiner-elements.pqrs.org
 <img src="./images/karabiner-own-rule-2.png" width="600"/>
 
 
-###  5.3. Unsplash
+### Unsplash
 
 https://apps.apple.com/ru/app/unsplash-wallpapers/id1284863847?l=en-GB&mt=12
 
 Кросивые обои
 
 
-###  5.4. PastePal
+### PastePal
 
 https://apps.apple.com/ru/app/clipboard-manager-pastepal/id1503446680?l=en-GB
 
 Клипборд с историей
 
 
-###  5.5. Hidden Bar
+### Hidden Bar
 
 https://apps.apple.com/ru/app/hidden-bar/id1452453066?l=en-GB&mt=12
 
 Прячет элементы меню когда их много
 
 
-###  5.6. Buho Cleaner
+### Buho Cleaner
 
 https://www.drbuho.com/buhocleaner/download
 
 В бесплатной версии можно проанализировать используемое место на диске и руками удалить большие папки
 
 
-###  5.7. Monitor Control
+### Monitor Control
 
 https://apps.apple.com/ru/app/monitorcontrol-lite/id1595464182?l=en-GB&mt=12
 
 Управление яркостью внешнего монитора кнопками `f1` и `f2`
 
 
-###  5.8. Keyboard Clean Tool
+### Keyboard Clean Tool
 
 https://folivora.ai/keyboardcleantool
 
 
-###  5.9. Ghostty
-
-https://ghostty.org
-
-Терминал
-
-
-###  5.10. Brew
+### Brew
 
 https://brew.sh
 

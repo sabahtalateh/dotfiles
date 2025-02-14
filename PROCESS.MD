@@ -59,6 +59,9 @@ git clone https://github.com/sabahtalateh/dotfiles.git ~/.dotfiles
 
 теперь им можно нормально пользоваться
 
+## Raycast
+...
+
 ## Karabner
 ...
 

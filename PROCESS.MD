@@ -57,4 +57,8 @@ git clone https://github.com/sabahtalateh/dotfiles.git ~/.dotfiles
 
 `./link-lfrc.sh`
 
+теперь им можно нормально пользоваться
+
+## Karabner
+...
 

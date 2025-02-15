@@ -15,7 +15,7 @@ export PS1="%{[36m%}%c%{[00m%} $(git_prompt_info)"
 source <(fzf --zsh)
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# lf will stay in last opened folder when quit
+# when quit `lf` terminal will stay in last opened folder
 alias lf=lfcd
 lfcd() {
     cd "$(command lf -print-last-dir "$@")"

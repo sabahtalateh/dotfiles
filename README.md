@@ -139,32 +139,11 @@ https://karabiner-elements.pqrs.org
 <img src="./images/karabiner-own-rule-2.png" width="600"/>
 
 
-## Unsplash
-
-https://apps.apple.com/ru/app/unsplash-wallpapers/id1284863847?l=en-GB&mt=12
-
-Кросивые обои
-
-
-## PastePal
-
-https://apps.apple.com/ru/app/clipboard-manager-pastepal/id1503446680?l=en-GB
-
-Клипборд с историей
-
-
 ## Hidden Bar
 
 https://apps.apple.com/ru/app/hidden-bar/id1452453066?l=en-GB&mt=12
 
 Прячет элементы меню когда их много
-
-
-## Buho Cleaner
-
-https://www.drbuho.com/buhocleaner/download
-
-В бесплатной версии можно проанализировать используемое место на диске и руками удалить большие папки
 
 
 ## Monitor Control
@@ -174,16 +153,27 @@ https://apps.apple.com/ru/app/monitorcontrol-lite/id1595464182?l=en-GB&mt=12
 Управление яркостью внешнего монитора кнопками `f1` и `f2`
 
 
+## PastePal
+
+https://apps.apple.com/ru/app/clipboard-manager-pastepal/id1503446680?l=en-GB
+
+Клипборд с историей
+
+
+## Buho Cleaner
+
+https://www.drbuho.com/buhocleaner/download
+
+В бесплатной версии можно проанализировать используемое место на диске и руками удалить большие папки
+
+
 ## Keyboard Clean Tool
 
 https://folivora.ai/keyboardcleantool
 
 
-## Brew
+## Unsplash
 
-https://brew.sh
+https://apps.apple.com/ru/app/unsplash-wallpapers/id1284863847?l=en-GB&mt=12
 
-Пакетный менеджер
-
-
-
+Кросивые обои

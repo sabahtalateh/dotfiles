@@ -2,7 +2,7 @@
 
 ## Stage Manager
 
-<img src="./images/stage-manager.png" width="600"/>
+<img src="./images/stage-manager.png" width="400"/>
 
 ## System Settings
 
@@ -15,6 +15,10 @@ Configure system defaults
 ### Control Center
 
 <img src="./images/control-center.png" width="700"/>
+
+After enable `Hearing` in `Control Center` background sound menu will appear
+
+<img src="./images/stage-manager-2.png" width="700"/>
 
 ### Desktop & Dock
 

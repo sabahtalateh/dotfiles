@@ -66,7 +66,7 @@ Then go to `Keyboard Shortcuts`
 
 <img src="./images/input-sources.png" width="700"/>
 
-#### Input Sources
+#### Screenshots
 
 <img src="./images/screenshots.png" width="700"/>
 
@@ -74,7 +74,7 @@ Then go to `Keyboard Shortcuts`
 
 <img src="./images/spotlight.png" width="700"/>
 
-#### Accessibility Shortcuts
+#### Accessibility
 
 <img src="./images/accessibility-shortcuts.png" width="700"/>
 

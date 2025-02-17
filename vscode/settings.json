@@ -143,6 +143,20 @@
                         "foreground": "#0033b3",
                     }
                 },
+                // Ключевые слова синие
+                {
+                    "scope": "keyword",
+                    "settings": {
+                        "foreground": "#0033b3",
+                    }
+                },
+                // Тип error синий
+                {
+                    "scope": "storage.type.error.go",
+                    "settings": {
+                        "foreground": "#0033b3",
+                    }
+                },
                 // Константы фиолетовые
                 {
                     "scope": "variable.other.constant",
@@ -158,13 +172,9 @@
                     }
                 },
 
-                // Ключевые слова синие
-                {
-                    "scope": "keyword",
-                    "settings": {
-                        "foreground": "#0033b3",
-                    }
-                },
+
+
+
                 // Всё чёрное (на всякий случай когда надо подебагать если не работает)
                 // {
                 //     "scope": "source.go",
@@ -206,7 +216,4 @@
 
     // Подсказки при написании кода по последнему использованию
     "editor.suggestSelection": "recentlyUsedByPrefix",
-
-    // Переносить длинные строки
-    "editor.wordWrap": "on",
 }

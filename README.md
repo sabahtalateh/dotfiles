@@ -2,6 +2,10 @@
 
 ## System Settings
 
+### Stage Manager
+
+<img src="./images/stage-manager.png" width="600"/>
+
 ### Acessibility
 
 <img src="./images/accessibility.png" width="700"/>

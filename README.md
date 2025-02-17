@@ -18,7 +18,7 @@ Configure system defaults
 
 After enable `Hearing` in `Control Center` background sound menu will appear
 
-<img src="./images/stage-manager-2.png" width="700"/>
+<img src="./images/stage-manager-2.png" width="400"/>
 
 ### Desktop & Dock
 

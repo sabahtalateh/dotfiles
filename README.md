@@ -6,6 +6,8 @@
 
 ## System Settings
 
+For complete overview of `macOS` settings refer to https://youtu.be/d6qnXA5tDog?si=HSYtua3z8IZ6CE5c
+
 Configure system defaults
 
 ### Acessibility

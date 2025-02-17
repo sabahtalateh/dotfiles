@@ -114,29 +114,29 @@ https://karabiner-elements.pqrs.org
 
 ### Меняем `Esc` на `Caps` и наоборот
 
-<img src="./images/karabiner-caps.png" width="600"/>
-<img src="./images/karabiner-esc.png" width="600"/>
+<img src="./images/karabiner-caps.png" width="700"/>
+<img src="./images/karabiner-esc.png" width="700"/>
 
 
 ### Меняем значок параграфа (кнопка под `Esc`) на тильду
 
 Это кнопка располагается под `Esc` на неамериканских клавиатурах. Для американских клавиатур этого делать не надо
 
-<img src="./images/karabiner-nonusbackslash.png" width="600"/>
-<img src="./images/karabiner-tilde.png" width="600"/>
+<img src="./images/karabiner-nonusbackslash.png" width="700"/>
+<img src="./images/karabiner-tilde.png" width="700"/>
 
 
 ### Полный конфиг простых замен
 
-<img src="./images/karabiner-config.png" width="600"/>
+<img src="./images/karabiner-config.png" width="700"/>
 
 
 ### Сложные замены
 
 Добавляем через `Add your own rule` все замены из папки [karabiner](./karabiner) кроме `simple.json` (этот файл лежит там на всякий случай)
 
-<img src="./images/karabiner-own-rule.png" width="600"/>
-<img src="./images/karabiner-own-rule-2.png" width="600"/>
+<img src="./images/karabiner-own-rule.png" width="700"/>
+<img src="./images/karabiner-own-rule-2.png" width="700"/>
 
 
 ## Hidden Bar

@@ -141,21 +141,21 @@ https://karabiner-elements.pqrs.org
 
 ## Hidden Bar
 
-https://apps.apple.com/ru/app/hidden-bar/id1452453066?l=en-GB&mt=12
+https://apps.apple.com/ru/app/hidden-bar/id1452453066
 
 Прячет элементы меню когда их много
 
 
 ## Monitor Control
 
-https://apps.apple.com/ru/app/monitorcontrol-lite/id1595464182?l=en-GB&mt=12
+https://apps.apple.com/ru/app/monitorcontrol-lite/id1595464182
 
 Управление яркостью внешнего монитора кнопками `f1` и `f2`
 
 
 ## PastePal
 
-https://apps.apple.com/ru/app/clipboard-manager-pastepal/id1503446680?l=en-GB
+https://apps.apple.com/ru/app/clipboard-manager-pastepal/id1503446680
 
 Клипборд с историей
 
@@ -174,6 +174,6 @@ https://folivora.ai/keyboardcleantool
 
 ## Unsplash
 
-https://apps.apple.com/ru/app/unsplash-wallpapers/id1284863847?l=en-GB&mt=12
+https://apps.apple.com/ru/app/unsplash-wallpapers/id1284863847
 
 Кросивые обои

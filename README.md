@@ -1,10 +1,12 @@
 # dotfiles
 
-## System Settings
-
-### Stage Manager
+## Stage Manager
 
 <img src="./images/stage-manager.png" width="600"/>
+
+## System Settings
+
+Configure system defaults
 
 ### Acessibility
 

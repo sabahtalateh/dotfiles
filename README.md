@@ -169,7 +169,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a
 
 Копируем ключ из `~/.ssh/id_ed25519.pub`
 
-На github.com идём в 
+На github.com идём в и вставляем ключ (название пишем любое)
 
 ```
 Settings -> SSH and GPG keys -> New SSH key
@@ -180,18 +180,14 @@ Settings -> SSH and GPG keys -> New SSH key
 
 ### Клонируем этот репозиторий
 
-Проверяем утсановлен ли `git`
-
 ```
-git 
+git clone git@github.com:sabahtalateh/dotfiles.git
 ```
 
-Если система только что установлена и `git` ещё не установлен, будет предложено установить иснутрменты разработчика
+Если система только что установлена будет предложено установить иснутрменты разработчика
 
 <img src="./images/devtools.png" width="500"/>
 
-
-Перенести `PROCESS.MD`
 
 ## Karabiner
 

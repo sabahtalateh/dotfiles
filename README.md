@@ -211,6 +211,9 @@ git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
 
 Дефолтный `shell` по умолчанию `zsh` так что тут ничего неастраивать не надо
 
+## Устанавливаем `brew` и программы
+
+https://brew.sh
 
 ## Karabiner
 

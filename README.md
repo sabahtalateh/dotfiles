@@ -186,7 +186,7 @@ Settings -> SSH and GPG keys -> New SSH key
 cd ~
 ```
 
-Клонируем репозиторий в директорию `.dotfiles`. Клонировать нужно по этому пути, так как скрипты репоизитория расчитаны на него
+Клонируем репозиторий в директорию `${HOME}/.dotfiles`. Клонировать нужно по этому пути, на это расчитаны скрипты репозитория
 
 ```
 git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
@@ -196,7 +196,18 @@ git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
 
 <img src="./images/devtools.png" width="500"/>
 
-Если это произошло то установим инструменты и выполним команду выше ещё раз
+Если это произошло, установим инструменты и выполним команду выше ещё раз
+
+
+## Настроаиваем терминал
+
+Импортируем профиль из `~/.dotfiles/terminal/Man Page Custom.terminal`
+
+<img src="./images/terminal-import.png" width="700"/>
+
+Делаем этот профиль профилем по умолчанию и перезапускаем терминал
+
+<img src="./images/terminal-default-profile.png" width="700"/>
 
 
 ## Karabiner

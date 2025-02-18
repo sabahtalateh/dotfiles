@@ -209,8 +209,6 @@ git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
 
 <img src="./images/terminal-default-profile.png" width="700"/>
 
-Дефолтный `shell` по умолчанию `zsh` так что тут ничего неастраивать не надо
-
 
 ## Установим тру-хакерский софт
 
@@ -244,6 +242,7 @@ https://ohmyz.sh
 - Удалим из него всё что там есть
 - Добавим 
   ```
+  # Load zshrc from .dotfiles
   source ${HOME}/.dotfiles/zsh/zshrc
   ```
 

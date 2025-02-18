@@ -188,6 +188,8 @@ git clone git@github.com:sabahtalateh/dotfiles.git
 
 <img src="./images/devtools.png" width="500"/>
 
+Если это произошло то установим инструменты и выполним команду выше ещё раз
+
 
 ## Karabiner
 

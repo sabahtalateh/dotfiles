@@ -227,6 +227,17 @@ https://brew.sh
 
 <img src="./images/brew-next.png" width="700"/>
 
+Добавим в файл `~/.zshrc` (создадим если его нет) строки
+
+```
+# Add brew to $PATH
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+И перезапустим терминал. Теперь команда `brew` в терминале должна вывести справочную информацию
+
+<img src="./images/brew-help.png" width="700"/>
+
 
 ## Karabiner
 

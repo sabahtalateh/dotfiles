@@ -214,7 +214,7 @@ git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
 
 ## Установим тру-хакерский софт
 
-### zsh
+### ZShell
 
 `zsh` является дефолтным `shell`-ом начинаю с какой-то версии `macOS` так-что ставить его не надо, но если надо то вот
 

@@ -209,6 +209,8 @@ git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
 
 <img src="./images/terminal-default-profile.png" width="700"/>
 
+Дефолтный `shell` по умолчанию `zsh` так что тут ничего неастраивать не надо
+
 
 ## Karabiner
 

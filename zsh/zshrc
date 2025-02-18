@@ -1,8 +1,8 @@
-# set locale
+# Set locale
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-# add brew shell variables
+# Add brew shell variables
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # zsh config
@@ -11,23 +11,23 @@ ZSH_THEME="robbyrussell"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
-# prompt
+# Prompt
 export PS1="%{[36m%}%c%{[00m%} $(git_prompt_info)"
 
 # fuzzyfinder (Ctrl+R)
 source <(fzf --zsh)
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# when quit `lf` terminal will stay in last opened folder
+# When quit `lf` terminal will stay in last opened folder
 alias lf=lfcd
 lfcd() {
     cd "$(command lf -print-last-dir "$@")"
 }
 
-# default VSCode terminal
+# Default VSCode terminal
 [[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
 
-# golang
+# Golang
 # export PATH="$PATH:$(go env GOPATH)/bin"
 
 # ruby required by brew. Or no?

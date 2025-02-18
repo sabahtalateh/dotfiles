@@ -121,7 +121,7 @@
 
 Затем перетащить в верхнюю часть окна значки, чтобы получилось как на картинке
 
-<img src="./images/finder-advanced.png" width="500"/>
+<img src="./images/finder-toolbar.png" width="700"/>
 
 
 ## Git. Клонирование этого репозитрия

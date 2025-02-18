@@ -132,11 +132,11 @@
 git
 ```
 
-<img src="./images/git.png" width="400"/>
+<img src="./images/git.png" width="700"/>
 
 Если система только что установлена, устанавливаем иснутрменты разработчика
 
-<img src="./images/devtools.png" width="400"/>
+<img src="./images/devtools.png" width="500"/>
 
 
 Перенести `PROCESS.MD`

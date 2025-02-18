@@ -132,9 +132,51 @@
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key
 
+Генерируем ключ
+
 ```
 ssh-keygen -t ed25519 -C "sabahtalateh@gmail.com"
 ```
+
+Запустим `ssh`-агент
+
+```
+eval "$(ssh-agent -s)"
+```
+
+Создадим конфигурационный файл (если его нет)
+
+```
+touch ~/.ssh/config
+```
+
+В `~/.ssh/config` добавим блок
+
+```
+Host github.com
+  AddKeysToAgent yes
+  UseKeychain yes 		# Если ключ без пароля, эту строку на добавляем
+  IdentityFile ~/.ssh/id_ed25519
+```
+
+```
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+```
+
+### Добавляем ключ в на `github`
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
+Копируем ключ из `~/.ssh/id_ed25519.pub`
+
+На github.com идём в 
+
+```
+Settings -> SSH and GPG keys -> New SSH key
+```
+
+<img src="./images/github-key.png" width="700"/>
+
 
 ### Клонируем этот репозиторий
 

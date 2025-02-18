@@ -219,6 +219,7 @@ git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
 
 https://brew.sh
 
+<img src="./images/brew.png" width="700"/>
 
 
 ## Karabiner

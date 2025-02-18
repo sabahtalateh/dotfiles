@@ -220,6 +220,15 @@ git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
 
 https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 
+
+### Oh my zsh
+
+Фреймоврк для настройки `zsh`. После установке терминал сразу станет разноцветный
+
+https://ohmyz.sh
+
+<img src="./images/omz.png" width="700"/>
+
 ### Brew
 
 Иногда не устанавливается из терминала, пишет `warning` и `fatal`. В этом случае пробуем несколько раз, если всё равно не работает то можно скачать `.pkg` установщик, эта опция тоже есть на главной странице
@@ -228,29 +237,11 @@ https://brew.sh
 
 <img src="./images/brew.png" width="700"/>
 
-:warning: Чтобы `brew` **был доступен из терминала**, после установки необходимо выполнить действия, перечисленные в терминале, или установщике на последнем шаге
+:warning: После установки `brew` будет предложено добавить `$PATH`-переменные для того чтобы `brew` был из терминала, этого делать не нужно, переменные оболочки будут добавлены после добавления файла `.dotfiles/zsh/zshrc` в `~/.zshrc` на одном из следующих шагов. Пока что `brew` будет доступен только по полному пути `/opt/homebrew/bin/brew`
 
-<img src="./images/brew-next.png" width="700"/>
+## next
 
-Добавим в файл `~/.zshrc` (создадим если его нет) строки
-
-```
-# Add brew to $PATH
-eval "$(/opt/homebrew/bin/brew shellenv)"
-```
-
-И перезапустим терминал. Теперь команда `brew` в терминале должна вывести справочную информацию
-
-<img src="./images/brew-help.png" width="700"/>
-
-
-### Oh my zsh
-
-Фреймоврк для `zsh`. После установке терминал сразу станет разноцветный
-
-https://ohmyz.sh
-
-<img src="./images/omz.png" width="700"/>
+## TODO: настроить xcode
 
 
 ## Karabiner

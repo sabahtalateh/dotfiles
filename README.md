@@ -180,8 +180,16 @@ Settings -> SSH and GPG keys -> New SSH key
 
 ### Клонируем этот репозиторий
 
+Переходим в домашнюю директорию пользователя
+
 ```
-git clone git@github.com:sabahtalateh/dotfiles.git
+cd ~
+```
+
+Клонируем репозиторий в директорию `.dotfiles`. Клонировать нужно по этому пути, так как скрипты репоизитория расчитаны на него
+
+```
+git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
 ```
 
 Если система только что установлена будет предложено установить иснутрменты разработчика

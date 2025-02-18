@@ -121,7 +121,7 @@
 
 Затем перетащить в верхнюю часть окна значки, чтобы получилось как на картинке
 
-<img src="./images/finder-advanced.png" width="400"/>
+<img src="./images/finder-advanced.png" width="500"/>
 
 
 ## Git. Клонирование этого репозитрия
@@ -132,6 +132,11 @@
 git
 ```
 
+<img src="./images/git.png" width="400"/>
+
+Если система только что установлена, устанавливаем иснутрменты разработчика
+
+<img src="./images/devtools.png" width="400"/>
 
 
 Перенести `PROCESS.MD`

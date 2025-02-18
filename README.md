@@ -101,7 +101,38 @@
 
 <img src="./images/trackpad-more-gestures.png" width="700"/>
 
-## Next
+## Finder
+
+### General
+
+<img src="./images/finder-general.png" width="400"/>
+
+### Sidebar
+
+<img src="./images/finder-sidebar.png" width="400"/>
+
+### Advanced
+
+<img src="./images/finder-advanced.png" width="400"/>
+
+### Toolbar
+
+Нажать правой кнопкой в верхней части окна `Finder` и выбрать `Customise Toolbar...`
+
+Затем перетащить в верхнюю часть окна значки, чтобы получилось как на картинке
+
+<img src="./images/finder-advanced.png" width="400"/>
+
+
+## Git. Клонирование этого репозитрия
+
+Открываем терминал и пишем 
+
+```
+git
+```
+
+
 
 Перенести `PROCESS.MD`
 

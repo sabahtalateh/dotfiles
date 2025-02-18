@@ -211,6 +211,7 @@ git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
 
 Дефолтный `shell` по умолчанию `zsh` так что тут ничего неастраивать не надо
 
+
 ## Устанавливаем `brew` и программы
 
 Может установиться не с первого раза, будет писать `warning` и `fatal`. В этом случае перезапускаем установку
@@ -220,6 +221,11 @@ git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
 https://brew.sh
 
 <img src="./images/brew.png" width="700"/>
+
+
+:warning: Чтобы `brew` был доступен из терминала, после установки необходимо выполнить действия, перечисленные в терминале, или на последнем шаге установщика :warning:
+
+<img src="./images/brew-next.png" width="700"/>
 
 
 ## Karabiner

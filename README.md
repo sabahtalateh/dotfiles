@@ -392,7 +392,7 @@ https://apps.apple.com/ru/app/clipboard-manager-pastepal/id1503446680
 
 https://www.drbuho.com/buhocleaner/download
 
-В бесплатной версии можно проанализировать используемое место на диске и руками удалить большие папки
+В бесплатной версии можно проанализировать используемое место на диске и руками удалить большие файлы и папки
 
 
 ## Keyboard Clean Tool

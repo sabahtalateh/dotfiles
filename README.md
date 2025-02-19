@@ -84,7 +84,7 @@
 
 <img src="./images/spotlight.png" width="700"/>
 
-### Wallpaper
+#### Wallpaper
 
 Добавим папку `~/.dotfiles/Wallpaper` с прикольными обоями и настроим обновление. Режим заполнения выберем `Stretch to Fill Screen`
 

@@ -12,6 +12,8 @@
 
 <img src="./images/stage-manager.png" width="400"/>
 
+После настройки сочетаний клавиш (описано ниже) можно будет переключаться между окнами одного пространства `Stage Manager`-а при помощи `Cmd+``. Так-же ниже включим режим `Reduce Motion` чтобы окна не летали как бешеные при переключении
+
 ## System Settings
 
 Полный обзор настроек `macOS` можно посмотреть тут https://youtu.be/d6qnXA5tDog?si=HSYtua3z8IZ6CE5c
@@ -408,4 +410,4 @@ https://apps.apple.com/ru/app/unsplash-wallpapers/id1284863847
 
 ## Плагины для Safari
 - Vimari https://github.com/MarcDonald/Vimarily
-- Adblock https://getadblock.com/ru/safari/
+- Adblock https://apps.apple.com/ru/app/adblock-plus-for-safari-abp/id1432731683

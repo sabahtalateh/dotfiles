@@ -7,8 +7,6 @@
 
 Перед тем как делать всё что тут написано рекомендуется установить [Sublime Text](https://www.sublimetext.com) для редактирования файлов
 
-Открываем терминал
-
 ### Генерируем `ssh`-ключ для `github`
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key

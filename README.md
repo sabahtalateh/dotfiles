@@ -290,10 +290,18 @@ https://brew.sh
 ./link-lfrc.sh
 ```
 
+## VSCode
+
+https://code.visualstudio.com
+
 
 ## next
 
-## TODO: настроить xcode
+## TODO: настройки xcode
+
+## Плагины для Safari
+- Vimari https://github.com/MarcDonald/Vimarily
+- Adblock https://getadblock.com/ru/safari/
 
 
 ## Karabiner

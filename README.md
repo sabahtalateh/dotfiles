@@ -226,6 +226,8 @@ git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
 
 <img src="./images/terminal-default-profile.png" width="700"/>
 
+:warning: При изменении настроек профиля или добавлении нового, нужно его экспортировать в `~/.dotfiles/terminal`
+
 
 ## Установим тру-хакерский софт
 

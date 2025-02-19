@@ -43,7 +43,7 @@
 
 ### Wallpaper
 
-Добавим папку `~/.dotfiles/Wallpaper` с прикольными обоями и настроим обновление. Режим заполнения выберем `Stretch to Fill Screen`
+Добавим папку `~/.dotfiles/Wallpapers` с прикольными обоями и настроим обновление. Режим заполнения выберем `Stretch to Fill Screen`
 
 <img src="./images/wallpaper.png" width="700"/>
 

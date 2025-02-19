@@ -419,12 +419,14 @@ https://www.drbuho.com/buhocleaner/download
 https://folivora.ai/keyboardcleantool
 
 
-## Unsplash
-
-https://apps.apple.com/ru/app/unsplash-wallpapers/id1284863847
-
-Кросивые обои
-
 ## Плагины для Safari
 - Vimari https://github.com/MarcDonald/Vimarily
 - Adblock https://apps.apple.com/ru/app/adblock-plus-for-safari-abp/id1432731683
+
+## Прикольные штуки
+
+### Кросивые обои
+
+Тут можно скачивать кросивые обои и складывать в `~/.dotfiles/Wallpapers`
+
+https://unsplash.com/ 

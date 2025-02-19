@@ -201,6 +201,13 @@ git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
 Если это произошло, установим инструменты и выполним команду выше ещё раз
 
 
+## Копируем шрифты
+
+Откроем программу `Font Book`, заходим в `~/.dotfiles/fonts` и перетаскиваем все шрифты в `Font Book`
+
+<img src="./images/fontbook.png" width="700"/>
+
+
 ## Настраиваем терминал
 
 Импортируем профиль из `~/.dotfiles/terminal/Man Page Custom.terminal`
@@ -210,13 +217,6 @@ git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
 Делаем этот профиль профилем по умолчанию и перезапускаем терминал
 
 <img src="./images/terminal-default-profile.png" width="700"/>
-
-
-## Копируем шрифты
-
-Откроем программу `Font Book`, заходим в `~/.dotfiles/fonts` и перетаскиваем все шрифты в `Font Book`
-
-<img src="./images/fontbook.png" width="700"/>
 
 
 ## Установим тру-хакерский софт

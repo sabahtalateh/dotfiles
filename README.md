@@ -118,6 +118,8 @@
 
 ## Finder
 
+Чтобы показать скрытые файлы надо нажать `Cmd+Shift+.`
+
 ### General
 
 <img src="./images/finder-general.png" width="400"/>

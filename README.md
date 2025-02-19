@@ -310,11 +310,12 @@ https://brew.sh
 #### Программы
 
 Установим программы с помощью `brew`
-- `jq` - программа для редактирования и запросов к `JSON`-файлам
-- `yq` - программа для редактирования и запросов к `YAML`-файлам
-- `tree` - файловое дерево в консоли
-- `fzf` - удобный поиск по файлам и по истории команд по `Ctrl+R` (донастраивается в `.dotfiles/zsh/zshrc`)
-- `lf` - консольный файловый менеджер
+- `jq` - программа для редактирования и запросов к `JSON`-файлам (https://github.com/jqlang/jq)
+- `yq` - программа для редактирования и запросов к `YAML`-файлам (https://github.com/mikefarah/yq)
+- `tree` - файловое дерево в консоли (https://formulae.brew.sh/formula/tree)
+- `fzf` - удобный поиск по файлам и по истории команд по `Ctrl+R` (донастраивается в `.dotfiles/zsh/zshrc`) (https://github.com/junegunn/fzf)
+- `lf` - консольный файловый менеджер (https://github.com/gokcehan/lf)
+- `task` - запускатель программ (https://taskfile.dev)
 
 ```
 ./brew-install.sh

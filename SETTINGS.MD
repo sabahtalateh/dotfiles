@@ -41,6 +41,12 @@
 
 <img src="./images/spotlight-settings.png" width="700"/>
 
+#### Wallpaper
+
+Добавим папку `~/.dotfiles/Wallpaper` с прикольными обоями и настроим обновление. Режим заполнения выберем `Stretch to Fill Screen`
+
+<img src="./images/wallpaper.png" width="700"/>
+
 ### Touch ID & Password
 
 <img src="./images/touchid.png" width="700"/>
@@ -78,12 +84,6 @@
 #### Spotlight
 
 <img src="./images/spotlight.png" width="700"/>
-
-#### Wallpaper
-
-Добавим папку `~/.dotfiles/Wallpaper` с прикольными обоями и настроим обновление. Режим заполнения выберем `Stretch to Fill Screen`
-
-<img src="./images/wallpaper.png" width="700"/>
 
 #### Accessibility
 

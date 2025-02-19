@@ -294,6 +294,20 @@ https://brew.sh
 
 https://code.visualstudio.com
 
+После установки откроем `VSCode` нажмём `Cmd+Shift+P` и установим `shell integrations`. После этого из консоли можно будет открыть `VSCode` написав `code`
+
+<img src="./images/code.png" width="700"/>
+
+После установки создадим ссылки на настройки из `.dotfiles`
+
+```
+./link-vscode-configs.sh
+```
+
+После выполнения скрипта настройки `VSCode` будут ссылками на папку `~/.dotfiles`
+
+<img src="./images/code-settings.png" width="700"/>
+
 
 ## next
 

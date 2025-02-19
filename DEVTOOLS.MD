@@ -77,7 +77,7 @@ git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
 
 <img src="./images/devtools.png" width="500"/>
 
-Если это произошло, установим инструменты и выполним команду выше ещё раз
+Установим их и выполним команду выше ещё раз
 
 
 ## Копируем шрифты

@@ -84,6 +84,12 @@
 
 <img src="./images/spotlight.png" width="700"/>
 
+### Wallpaper
+
+Добавим папку `~/.dotfiles/Wallpaper` с прикольными обоями и настроим обновление. Режим заполнения выберем `Stretch to Fill Screen`
+
+<img src="./images/wallpaper.png" width="700"/>
+
 #### Accessibility
 
 <img src="./images/accessibility-shortcuts.png" width="700"/>
@@ -95,7 +101,6 @@
 #### Modifier Keys
 
 <img src="./images/modifier-keys.png" width="700"/>
-
 
 ### Trackpad
 
@@ -132,6 +137,18 @@
 Затем перетащить в верхнюю часть окна значки, чтобы получилось как на картинке
 
 <img src="./images/finder-toolbar.png" width="700"/>
+
+### Favourites
+
+Любую папку в `Finder` можно перетащить на боковую панель в раздел `Fovourites` для быстрого доступа
+
+<img src="./images/finder-fovourites.png" width="700"/>
+
+### View Options
+
+Для каждой папки можно настроить как будет отображаться содержимое в меню `View -> Show View Options`
+
+<img src="./images/viewoptions.png" width="250"/>
 
 
 ## Клонирование репозитрия. Ssh & Git

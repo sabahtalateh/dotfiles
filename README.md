@@ -311,20 +311,16 @@ https://code.visualstudio.com
 <img src="./images/code-settings-2.png" width="700"/>
 
 
-## next
+## Комбинации клавиш для `XCode`
 
-## TODO: настройки xcode
-
-## Плагины для Safari
-- Vimari https://github.com/MarcDonald/Vimarily
-- Adblock https://getadblock.com/ru/safari/
+<img src="./images/xcode-shortcuts.png" width="700"/>
 
 
 ## Karabiner
 
 https://karabiner-elements.pqrs.org
 
-Инструмент для настройки кастомных сочетаний клавиш, например `Cmd+h/j/k/l` можно назначить на стрелки. Навигация будет более удобная
+Инструмент для настройки кастомных сочетаний клавиш, например комбинации `Cmd+h/j/k/l` можно назначить на действия `Вверх/Вниз/Влево/Вправо`
 
 
 ### Меняем `Esc` на `Caps` и наоборот
@@ -392,3 +388,7 @@ https://folivora.ai/keyboardcleantool
 https://apps.apple.com/ru/app/unsplash-wallpapers/id1284863847
 
 Кросивые обои
+
+## Плагины для Safari
+- Vimari https://github.com/MarcDonald/Vimarily
+- Adblock https://getadblock.com/ru/safari/

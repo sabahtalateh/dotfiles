@@ -201,7 +201,7 @@ git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
 Если это произошло, установим инструменты и выполним команду выше ещё раз
 
 
-## Настроаиваем терминал
+## Настраиваем терминал
 
 Импортируем профиль из `~/.dotfiles/terminal/Man Page Custom.terminal`
 
@@ -210,6 +210,13 @@ git clone git@github.com:sabahtalateh/dotfiles.git .dotfiles
 Делаем этот профиль профилем по умолчанию и перезапускаем терминал
 
 <img src="./images/terminal-default-profile.png" width="700"/>
+
+
+## Копируем шрифты
+
+Откроем программу `Font Book`, заходим в `~/.dotfiles/fonts` и перетаскиваем все шрифты в `Font Book`
+
+<img src="./images/fontbook.png" width="700"/>
 
 
 ## Установим тру-хакерский софт
@@ -275,7 +282,7 @@ https://brew.sh
 - `jq` - программа для редактирования и запросов к `JSON`-файлам
 - `yq` - программа для редактирования и запросов к `YAML`-файлам
 - `tree` - файловое дерево в консоли
-- `fzf` - удобный поиск по файла и по истории команд по `Ctrl+R` (донастраивается в `.dotfiles/zsh/zshrc`)
+- `fzf` - удобный поиск по файлам и по истории команд по `Ctrl+R` (донастраивается в `.dotfiles/zsh/zshrc`)
 - `lf` - консольный файловый менеджер
 
 ```

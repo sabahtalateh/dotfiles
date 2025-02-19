@@ -308,6 +308,8 @@ https://code.visualstudio.com
 
 <img src="./images/code-settings.png" width="700"/>
 
+<img src="./images/code-settings-2.png" width="700"/>
+
 
 ## next
 

@@ -378,7 +378,7 @@ https://apps.apple.com/ru/app/hidden-bar/id1452453066
 
 https://apps.apple.com/ru/app/monitorcontrol-lite/id1595464182
 
-Управление яркостью внешнего монитора кнопками `f1` и `f2`
+Управление яркостью внешнего монитора
 
 
 ## PastePal

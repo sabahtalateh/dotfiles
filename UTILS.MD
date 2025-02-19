@@ -50,4 +50,4 @@ https://folivora.ai/keyboardcleantool
 
 Тут можно скачивать кросивые обои и складывать в `~/.dotfiles/Wallpapers`
 
-https://unsplash.com/ 
+https://unsplash.com/wallpapers

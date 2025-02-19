@@ -234,4 +234,5 @@ https://karabiner-elements.pqrs.org
 Добавляем через `Add your own rule` все замены из папки [karabiner](./karabiner) кроме `simple.json` (этот файл лежит там на всякий случай)
 
 <img src="./images/karabiner-own-rule.png" width="700"/>
+
 <img src="./images/karabiner-own-rule-2.png" width="700"/>

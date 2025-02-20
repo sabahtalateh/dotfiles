@@ -147,9 +147,9 @@
 
 <img src="./images/viewoptions.png" width="250"/>
 
-## Safari 
+## Safari
 
-Настроим браузер
+`Cmd+Shift+L` вызывает боковое меню
 
 ### General
 

@@ -89,6 +89,12 @@
 
 <img src="./images/accessibility-shortcuts.png" width="700"/>
 
+#### App Shortcuts
+
+Настроим сочетания клавиш для более естественного поведения `Safari`
+
+<img src="./images/app-shortcuts.png" width="700"/>
+
 #### Function Keys
 
 <img src="./images/function-keys.png" width="700"/>

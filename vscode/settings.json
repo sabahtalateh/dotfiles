@@ -216,4 +216,7 @@
 
     // Подсказки при написании кода по последнему использованию
     "editor.suggestSelection": "recentlyUsedByPrefix",
+
+    // Максимальное число строчек в терминале
+    "terminal.integrated.scrollback": 50000,
 }

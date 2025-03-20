@@ -219,4 +219,5 @@
 
     // Максимальное число строчек в терминале
     "terminal.integrated.scrollback": 50000,
+    "workbench.tree.expandMode": "doubleClick",
 }

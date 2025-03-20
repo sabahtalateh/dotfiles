@@ -39,6 +39,24 @@
     // Чото-там по центру
     "workbench.editor.centeredLayoutFixedWidth": true,
 
+    // Вроде не используется
+    // "window.openFoldersInNewWindow": "off",
+
+    // Автосохранение
+    "files.autoSave": "afterDelay",
+
+    // Не показывать диалог при синхронизации веток
+    "git.confirmSync": false,
+
+    // Подсказки при написании кода по последнему использованию
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+
+    // Максимальное число строчек в терминале
+    "terminal.integrated.scrollback": 50000,
+
+    // Открывать/закрывать папки только при нажатии на значок папки и двойному нажатию
+    "workbench.tree.expandMode": "doubleClick",
+
     // Не показывать Copilot
     "chat.commandCenter.enabled": false,
 
@@ -203,21 +221,5 @@
                 // },
             ],
         },
-    },
-
-    // Вроде не используется
-    // "window.openFoldersInNewWindow": "off",
-
-    // Автосохранение
-    "files.autoSave": "afterDelay",
-
-    // Не показывать диалог при синхронизации веток
-    "git.confirmSync": false,
-
-    // Подсказки при написании кода по последнему использованию
-    "editor.suggestSelection": "recentlyUsedByPrefix",
-
-    // Максимальное число строчек в терминале
-    "terminal.integrated.scrollback": 50000,
-    "workbench.tree.expandMode": "doubleClick",
+    },   
 }

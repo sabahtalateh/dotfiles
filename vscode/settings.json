@@ -18,7 +18,7 @@
 
     // Что будет написано в titlebar-е окна
     "window.title": "${dirty}${remoteName}${separator}${rootPath}${separator}${activeEditorShort}${separator}${profileName}",
-    "window.titleSeparator": " 📦 ",
+    "window.titleSeparator": " 🔵 ",
 
     // Не показывать вкладки
     "workbench.editor.showTabs": "none",

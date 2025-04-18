@@ -44,6 +44,15 @@
         "key": "cmd+1",
         "command": "-workbench.action.focusFirstEditorGroup"
     },
+    // Reveal file in Tree View with cmd+2 (JetBrains like)
+    {
+        "key": "cmd+2",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "cmd+2",
+        "command": "-workbench.action.focusSecondEditorGroup"
+    },
     // Focus editor on Esc
     {
         "key": "escape",
@@ -60,11 +69,6 @@
         "key": "ctrl+a",
         "command": "-cursorLineStart",
         "when": "textInputFocus"
-    },
-    // Reveal file in Tree View with cmd+f1 (JetBrains like)
-    {
-        "key": "cmd+f1",
-        "command": "workbench.files.action.showActiveFileInExplorer"
     },
     // Reload window
     {
@@ -150,5 +154,5 @@
         "args": {
             "cwd": "${fileDirname}"
         }
-    }
+    },
 ]

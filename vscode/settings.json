@@ -66,14 +66,21 @@
     // Отключить автопереключение на файл в Tree View при переключении табов
     "explorer.autoReveal": false,
 
+    // Миникарта. Показывать активную область
+    "editor.minimap.showSlider": "always",
+    // Миникарта. Показывать квадратики вместо букв
+    "editor.minimap.renderCharacters": false,
+
     // Настройки темы
     "workbench.colorCustomizations": {
         "[Light Modern. Black on White]": {
+            // Это всё багует
+
             // Подсветка активного найденного слова при поиске
-            "editor.findMatchBackground": "#fcd47e",
+            // "editor.findMatchBackground": "#fcd47e",
 
             // Подсветка неактивных найденных слов при поиске
-            "editor.findMatchHighlightBackground": "#fcf4d4",
+            // "editor.findMatchHighlightBackground": "#fcf4d4",
 
             // Цвет выделения
             // "editor.selectionBackground": "#fcf4d4",
@@ -153,7 +160,7 @@
                         "foreground": "#067d17",
                     }
                 },
-                // Плейсхолдеры в строках синие. Ex: fmt.Sprintf("..%s")
+                // Плейсхолдеры в строках синие. Ex: fmt.Sprintf("%s", str)
                 {
                     "scope": "constant.other.placeholder",
                     "settings": {

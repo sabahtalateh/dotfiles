@@ -71,6 +71,10 @@
     // Миникарта. Показывать квадратики вместо букв
     "editor.minimap.renderCharacters": false,
 
+    // Отображать в Ctrl+Tab все просмотренные файлы а не только отредактированные
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+
     // Настройки темы
     "workbench.colorCustomizations": {
         "[Light Modern. Black on White]": {

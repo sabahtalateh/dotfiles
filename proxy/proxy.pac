@@ -10,7 +10,11 @@ var PROXY_HOSTS = [
     "openai.com",
     "*.openai.com",
     "chatgpt.com",
-    "*.chatgpt.com"
+    "*.chatgpt.com",
+
+    // Youtube
+    "youtube.com",
+    "*.youtube.com"
 ];
 
 function FindProxyForURL(url, host) {

@@ -10,22 +10,22 @@ var PROXY_HOSTS = [
     "*.chatgpt.com"
 ];
 
-function FindProxyForURL(requestUrl, requestHost) {
-    return "PROXY " + PROXY_SERVER;
+function FindProxyForURL(url, host) {
+    // return "PROXY " + PROXY_SERVER;
 
-    // for (var i = 0; i < PROXY_HOSTS.length; i++) {
-    //     var host = PROXY_DOMAINS[i];
+    for (var i = 0; i < PROXY_HOSTS.length; i++) {
+        var proxyHost = PROXY_HOSTS[i];
         
-    //     if (host.indexOf("*") === -1) {
-    //         if (dnsDomainIs(requestHost, host)) {
-    //             return PROXY_SERVER;
-    //         }
-    //     } else {
-    //         if (shExpMatch(requestHost, host)) {
-    //             return "PROXY " + PROXY_SERVER;
-    //         }
-    //     }
-    // } 
+        if (proxyHost.indexOf("*") === -1) {
+            if (dnsDomainIs(host, proxyHost)) {
+                return "PROXY " + PROXY_SERVER;
+            }
+        } else {
+            if (shExpMatch(host, proxyHost)) {
+                return "PROXY " + PROXY_SERVER;
+            }
+        }
+    } 
     
-    // return "DIRECT";
+    return "DIRECT";
 }

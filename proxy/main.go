@@ -53,6 +53,8 @@ func main() {
 
 func pacHandler(pacContent []byte) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
+		log.Printf("PAC requested: %s - %s %s", r.RemoteAddr, r.Method, r.URL.Path)
+
 		w.Header().Set("Content-Type", "application/x-ns-proxy-autoconfig")
 		w.Header().Set("Cache-Control", "no-cache")
 		w.Write(pacContent)

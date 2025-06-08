@@ -8,4 +8,4 @@
 - [Настройка системы и системных программ (Finder, Safari)](./SETTINGS.MD)
 - [Инструменты разработки](./DEVTOOLS.MD)
 - [Полезные программки](./UTILS.MD)
-- [Proxy] (./PROXY.MD)
+- [Proxy](./PROXY.MD)

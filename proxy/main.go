@@ -17,9 +17,8 @@ import (
 
 func main() {
 	pacContent, err := os.ReadFile("proxy.pac")
-	if err != nil {
-		log.Fatalf(err.Error())
-	}
+	check(err)
+
 	log.Printf("PAC loaded:\n%s", string(pacContent))
 
 	http.HandleFunc("/proxy.pac", func(w http.ResponseWriter, r *http.Request) {
@@ -28,7 +27,20 @@ func main() {
 		w.Write(pacContent)
 	})
 
+	host := "localhost:3129"
+
+	log.Printf("Listening at: %s", host)
+
+	err = http.ListenAndServe(host, nil)
+	check(err)
+
 	// http.HandleFunc("/proxy.pac", pacHandler)
 	// fmt.Println("Serving PAC file at http://localhost:8080/proxy.pac")
 	// http.ListenAndServe(":8080", nil)
+}
+
+func check(err error) {
+	if err != nil {
+		log.Fatalf(err.Error())
+	}
 }

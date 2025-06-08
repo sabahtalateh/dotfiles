@@ -27,7 +27,7 @@ func main() {
 		w.Write(pacContent)
 	})
 
-	host := "localhost:3129"
+	host := ":3129"
 
 	log.Printf("Listening at: %s", host)
 

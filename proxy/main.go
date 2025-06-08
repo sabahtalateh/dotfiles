@@ -6,15 +6,6 @@ import (
 	"os"
 )
 
-// const pacContent = `function FindProxyForURL(url, host) {
-// 	return "PROXY 192.168.31.77:3128";
-// }`
-
-// func pacHandler(w http.ResponseWriter, r *http.Request) {
-// 	w.Header().Set("Content-Type", "application/x-ns-proxy-autoconfig")
-// 	fmt.Fprint(w, pacContent)
-// }
-
 func main() {
 	pacContent, err := os.ReadFile("proxy.pac")
 	check(err)
@@ -33,10 +24,6 @@ func main() {
 
 	err = http.ListenAndServe(host, nil)
 	check(err)
-
-	// http.HandleFunc("/proxy.pac", pacHandler)
-	// fmt.Println("Serving PAC file at http://localhost:8080/proxy.pac")
-	// http.ListenAndServe(":8080", nil)
 }
 
 func check(err error) {

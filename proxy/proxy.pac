@@ -1,9 +1,12 @@
 var PROXY_SERVER = "192.168.31.77:3128";
 
 var PROXY_HOSTS = [
+    // Claude
     "claude.ai",
     "*.claude.ai", 
     "*.anthropic.com",
+
+    // ChatGPT
     "openai.com",
     "*.openai.com",
     "chatgpt.com",

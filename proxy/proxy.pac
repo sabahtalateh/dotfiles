@@ -14,7 +14,9 @@ var PROXY_HOSTS = [
 
     // Youtube
     "youtube.com",
-    "*.youtube.com"
+    "*.youtube.com",
+    "*.ytimg.com",
+    "*.googlevideo.com"
 ];
 
 function FindProxyForURL(url, host) {

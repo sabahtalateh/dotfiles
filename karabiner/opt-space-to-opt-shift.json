@@ -1,0 +1,18 @@
+{
+    "description": "Option+Space to Option+Shift",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "spacebar",
+                "modifiers": { "mandatory": ["option"] }
+            },
+            "to": [
+                {
+                    "key_code": "left_shift",
+                    "modifiers": ["option"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}

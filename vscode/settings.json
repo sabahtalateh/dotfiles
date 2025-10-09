@@ -61,7 +61,7 @@
     "chat.commandCenter.enabled": false,
 
     // Показывать пробельные символы в diff-редакторе
-    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.ignoreTrimWhitespace": true,
 
     // Отключить автопереключение на файл в Tree View при переключении табов
     "explorer.autoReveal": false,
@@ -77,6 +77,10 @@
 
     // Отображать diff в виде одной колонки
     "diffEditor.renderSideBySide": false,
+
+    // Что-то ещё
+    "editor.wordWrapColumn": 120,
+    "terminal.integrated.defaultProfile.linux": "zsh",
 
     // Настройки темы
     "workbench.colorCustomizations": {
@@ -242,4 +246,5 @@
             ],
         },
     },
+
 }

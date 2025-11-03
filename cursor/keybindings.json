@@ -1,0 +1,158 @@
+[
+    // Comment line then jump to next line with cmd+/ (JetBrains like)
+    {
+        "key": "cmd+/",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "editor.action.commentLine",
+                "cursorDown"
+            ]
+        },
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    // Delete line with cmd+backspace
+    {
+        "key": "cmd+backspace",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    // Duplicate line with cmd+d (JetBrains like)
+    {
+        "key": "cmd+d",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "editor.action.copyLinesUpAction",
+                "cursorDown"
+            ]
+        },
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    // Sidebar with Cmd+1 (JetBrains like)
+    {
+        "key": "cmd+1",
+        "command": "workbench.view.explorer",
+        "when": "!sideBarFocus || (sideBarFocus && activeViewlet != 'workbench.view.explorer')",
+    },
+    {
+        "key": "cmd+1",
+        "command": "workbench.action.closeSidebar",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.explorer'",
+    },
+    {
+        "key": "cmd+1",
+        "command": "-workbench.action.focusFirstEditorGroup"
+    },
+    // Reveal file in Tree View with cmd+2 (JetBrains like)
+    {
+        "key": "cmd+2",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "cmd+2",
+        "command": "-workbench.action.focusSecondEditorGroup"
+    },
+    // Focus editor on Esc
+    {
+        "key": "escape",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "!editorTextFocus && !(listFocus && treeFindOpen)"
+    },
+    // Cursor Home with ctrl+a
+    {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-cursorLineStart",
+        "when": "textInputFocus"
+    },
+    // Reload window
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.action.reloadWindow"
+    },
+    // Copy file path from tree view with cmd+shift+c (JetBrains like)
+    {
+        "key": "shift+cmd+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "shift+cmd+c",
+        "command": "copyFilePath",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "alt+cmd+c",
+        "command": "-copyFilePath",
+        "when": "!editorFocus"
+    },
+    // Go to reference with cmd+b
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b",
+        "command": "editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "shift+f12",
+        "command": "-editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "cmd+b",
+        "command": "goToPreviousReference",
+        "when": "inReferenceSearchEditor || referenceSearchVisible"
+    },
+    {
+        "key": "shift+f12",
+        "command": "-goToPreviousReference",
+        "when": "inReferenceSearchEditor || referenceSearchVisible"
+    },
+    // Show bookmarks list
+    {
+        "key": "cmd+m",
+        "command": "bookmarks.list"
+    },
+    // Toggle terminal with cmd+t
+    {
+        "key": "cmd+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "cmd+t",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    // Clear terminal with cmd+k (macOS terminal like)
+    {
+        "key": "cmd+k",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus && terminalHasBeenCreated && !accessibilityModeEnabled || terminalFocus && terminalProcessSupported && !accessibilityModeEnabled || accessibilityModeEnabled && accessibleViewIsShown && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewIsShown && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
+    },
+    {
+        "key": "cmd+k",
+        "command": "-workbench.action.terminal.clear",
+        "when": "terminalFocus && terminalHasBeenCreated && !accessibilityModeEnabled || terminalFocus && terminalProcessSupported && !accessibilityModeEnabled || accessibilityModeEnabled && accessibleViewIsShown && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewIsShown && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
+    },
+    // Open terminal in current file's directory
+    {
+        "key": "cmd+shift+t",
+        "command": "workbench.action.terminal.newWithCwd",
+        "args": {
+            "cwd": "${fileDirname}"
+        }
+    },
+]

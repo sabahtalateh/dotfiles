@@ -68,9 +68,6 @@
 
     // Отключить автопереключение на файл в Tree View при переключении табов
     "explorer.autoReveal": false,
-
-    // Миникарта. Показывать
-    "editor.minimap.enabled": true,
     // Миникарта. Показывать активную область
     "editor.minimap.showSlider": "always",
     // Миникарта. Показывать квадратики вместо букв
@@ -87,12 +84,23 @@
     "editor.wordWrapColumn": 120,
     "terminal.integrated.defaultProfile.linux": "zsh",
 
+    // ???
+    "remote.autoForwardPortsSource": "hybrid",
+    "terminal.integrated.inheritEnv": false,
+    "window.commandCenter": true,
+
     // Cool colors
     // Blue. #206595
     // Green. #1F8A65
     "editor.semanticTokenColorCustomizations": {
         "[Cursor Light. Black on White]": {
             "rules": {
+                // Почти всё
+                "variable": "#2c2c2c",
+
+                // Константы фиолетовые
+                "variable.readonly": "#871094",
+
                 // Комментарии сервые и с наклоном
                 "comment": {
                     "foreground": "#8c8c8c",
@@ -120,9 +128,6 @@
                 // Методы и функции сине-зелёные
                 "method": "#00627a",
                 "function": "#00627A",
-
-                // Почти всё
-                "variable": "#2C2C2C"
             }
         }
     },

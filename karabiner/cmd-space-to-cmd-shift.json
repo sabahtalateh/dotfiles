@@ -1,5 +1,5 @@
 {
-    "description": "Cmd+Space to Cmd+Shift",
+    "description": "Command+Space to Command +Shift. (for Cmd+Space+F to search in code editors)",
     "manipulators": [
         {
             "from": {

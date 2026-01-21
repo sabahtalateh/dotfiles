@@ -1,5 +1,5 @@
 {
-    "description": "Option+Space to Option+Shift",
+    "description": "Option+Space to Option+Shift. (for Opt+Space+F to search in code editors)",
     "manipulators": [
         {
             "from": {

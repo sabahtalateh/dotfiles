@@ -1,14 +1,14 @@
 {
-    "description": "Change spacebar to left_shift. (Post spacebar if pressed alone)",
+    "description": "Spacebar to shift when held down, spacebar when tapped. (for selecting blocks of text when Space held)",
     "manipulators": [
         {
             "from": {
                 "key_code": "spacebar",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "left_shift" }],
             "to_if_alone": [{ "key_code": "spacebar" }],
+            "to_if_held_down": [{ "key_code": "left_shift" }],
             "type": "basic"
-        }   
-    ]  
+        }
+    ]
 }

@@ -1,5 +1,5 @@
 {
-    "description": "Change Ctrl + H/J/K/L to Arrow Keys",
+    "description": "Change Ctrl + H/J/K/L to Arrow Keys. (VIM-like navigation in code editors)",
     "manipulators": [
         {
             "from": {

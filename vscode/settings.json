@@ -82,6 +82,9 @@
     "editor.wordWrapColumn": 120,
     "terminal.integrated.defaultProfile.linux": "zsh",
 
+    "claudeCode.preferredLocation": "panel",
+    "editor.minimap.enabled": false,
+
     // Настройки темы
     "workbench.colorCustomizations": {
         "[Light Modern. Black on White]": {
@@ -113,6 +116,12 @@
     "editor.semanticTokenColorCustomizations": {
         "[Light Modern. Black on White]": {
             "rules": {
+                // Почти всё
+                "variable": "#2c2c2c",
+
+                // Константы фиолетовые
+                "variable.readonly": "#871094",
+
                 // Комментарии сервые и с наклоном
                 "comment": {
                     "foreground": "#8c8c8c",
@@ -123,19 +132,19 @@
                 "namespace": "#805900",
 
                 // Ключевые слова синие
-                "keyword": "#0033b3",
+                "keyword": "#206595",
 
                 // Цифры синие
-                "number": "#0033b3",
+                "number": "#206595",
 
                 // Встроенные типы синие
-                "type.defaultLibrary": "#0033b3",
+                "type.defaultLibrary": "#206595",
 
                 // Константы языка синие. Ex: nil
-                "variable.defaultLibrary": "#0033b3",
+                "variable.defaultLibrary": "#206595",
 
                 // Функции стандартной библиотеки синие
-                "function.defaultLibrary": "#0033b3",
+                "function.defaultLibrary": "#206595",
 
                 // Методы и функции сине-зелёные
                 "method": "#00627a",
@@ -156,6 +165,9 @@
             // "functions": "#00627a",
 
             "textMateRules": [
+                "comments": "#8c8c8c",
+
+            "textMateRules": [
                 // Комментарии серые и с наклоном
                 {
                     "scope": "comment",
@@ -168,35 +180,35 @@
                 {
                     "scope": "string.quoted",
                     "settings": {
-                        "foreground": "#067d17",
+                        "foreground": "#1F8A65",
                     }
                 },
                 // Плейсхолдеры в строках синие. Ex: fmt.Sprintf("%s", str)
                 {
                     "scope": "constant.other.placeholder",
                     "settings": {
-                        "foreground": "#0033b3",
+                        "foreground": "#206595",
                     }
                 },
                 // any синий
                 {
                     "scope": "entity.name.type.any",
                     "settings": {
-                        "foreground": "#0033b3",
+                        "foreground": "#206595",
                     }
                 },
                 // Ключевые слова синие
                 {
                     "scope": "keyword",
                     "settings": {
-                        "foreground": "#0033b3",
+                        "foreground": "#206595",
                     }
                 },
                 // Тип error синий
                 {
                     "scope": "storage.type.error.go",
                     "settings": {
-                        "foreground": "#0033b3",
+                        "foreground": "#206595",
                     }
                 },
                 // Константы фиолетовые
@@ -214,9 +226,6 @@
                     }
                 },
 
-
-
-
                 // Всё чёрное (на всякий случай когда надо подебагать если не работает)
                 // {
                 //     "scope": "source.go",
@@ -224,27 +233,7 @@
                 //         "foreground": "#000000",
                 //     }
                 // },
-
-                // Констатны языка и встроенно типы синие. Ex: nil
-                // {
-                //     "scope": [
-                //         // "constant.language.null", // почему-то nil не красится в синий цвет
-                //         // его перезаписывает фиолетовый цвет выше. ну и хрен с ним
-                //         "storage.type",
-                //     ],
-                //     "settings": {
-                //         "foreground": "#0033b3",
-                //     }
-                // },
-                // Неймспейсы коричневые
-                // {
-                //     "scope": "entity.name.namespace",
-                //     "settings": {
-                //         "foreground": "#805900"
-                //     }
-                // },
             ],
         },
     },
-
 }

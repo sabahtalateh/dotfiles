@@ -120,7 +120,7 @@
                 "variable": "#2c2c2c",
 
                 // Константы фиолетовые
-                "variable.readonly": "#871094",
+                "variable.readonly": "#8c119b",
 
                 // Комментарии сервые и с наклоном
                 "comment": {
@@ -129,33 +129,33 @@
                 },
 
                 // Неймспейсы коричневые
-                "namespace": "#805900",
+                "namespace": "#885e00",
 
                 // Ключевые слова синие
-                "keyword": "#206595",
+                "keyword": "#22699d",
 
                 // Цифры синие
-                "number": "#206595",
+                "number": "#22699d",
 
                 // Встроенные типы синие
-                "type.defaultLibrary": "#206595",
+                "type.defaultLibrary": "#22699d",
 
                 // Константы языка синие. Ex: nil
-                "variable.defaultLibrary": "#206595",
+                "variable.defaultLibrary": "#22699d",
 
                 // Функции стандартной библиотеки синие
-                "function.defaultLibrary": "#206595",
+                "function.defaultLibrary": "#22699d",
 
                 // Методы и функции сине-зелёные
-                "method": "#00627a",
-                "function": "#00627A",
+                "method": "#00687f",
+                "function": "#00687f",
             }
         }
     },
     "editor.tokenColorCustomizations": {
         "[Light Modern. Black on White]": {
             // Комментарии серые
-            "comments": "#8c8c8c",
+            "comments": "#909090",
 
             // Ключевые слова и цифры синие
             // "keywords": "#0033b3",
@@ -163,9 +163,6 @@
 
             // Функции сине-зелёные
             // "functions": "#00627a",
-
-            "textMateRules": [
-                "comments": "#8c8c8c",
 
             "textMateRules": [
                 // Комментарии серые и с наклоном
@@ -180,49 +177,49 @@
                 {
                     "scope": "string.quoted",
                     "settings": {
-                        "foreground": "#1F8A65",
+                        "foreground": "#20916a",
                     }
                 },
                 // Плейсхолдеры в строках синие. Ex: fmt.Sprintf("%s", str)
                 {
                     "scope": "constant.other.placeholder",
                     "settings": {
-                        "foreground": "#206595",
+                        "foreground": "#22699d",
                     }
                 },
                 // any синий
                 {
                     "scope": "entity.name.type.any",
                     "settings": {
-                        "foreground": "#206595",
+                        "foreground": "#22699d",
                     }
                 },
                 // Ключевые слова синие
                 {
                     "scope": "keyword",
                     "settings": {
-                        "foreground": "#206595",
+                        "foreground": "#22699d",
                     }
                 },
                 // Тип error синий
                 {
                     "scope": "storage.type.error.go",
                     "settings": {
-                        "foreground": "#206595",
+                        "foreground": "#22699d",
                     }
                 },
                 // Константы фиолетовые
                 {
                     "scope": "variable.other.constant",
                     "settings": {
-                        "foreground": "#871094",
+                        "foreground": "#8c119b",
                     }
                 },
                 // Функции сине-зелёные
                 {
                     "scope": "entity.name.function",
                     "settings": {
-                        "foreground": "#00627A",
+                        "foreground": "#00687f",
                     }
                 },
 

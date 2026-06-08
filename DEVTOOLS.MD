@@ -240,3 +240,7 @@ https://karabiner-elements.pqrs.org
 <img src="./images/karabiner-own-rule.png" width="700"/>
 
 <img src="./images/karabiner-own-rule-2.png" width="700"/>
+
+### Полный конфиг сложных замен
+
+<img src="./images/karabiner-complex-config.png" width="700"/>

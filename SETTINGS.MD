@@ -95,6 +95,10 @@
 
 <img src="./images/app-shortcuts.png" width="700"/>
 
+Так-же сделаем чтобы по `Cmd+W` Safari не закрывалось полностью (дюже бесит).
+
+<img src="./images/safari-close-tab.png" width="700"/>
+
 #### Function Keys
 
 <img src="./images/function-keys.png" width="700"/>

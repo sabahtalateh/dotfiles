@@ -46,8 +46,9 @@ https://folivora.ai/keyboardcleantool
 
 ## Прикольные штуки
 
-### Красивые обои
+### Кросивые обои
 
-Тут можно скачивать красивые обои и складывать в `~/.dotfiles/Wallpapers`.
+Тут можно скачивать красивые обои и складывать в `iCloud Drive/Wallpapers`.
 
-https://unsplash.com/wallpapers
+- https://unsplash.com/wallpapers
+- wallpaperscraft.com

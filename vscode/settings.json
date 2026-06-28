@@ -1,0 +1,234 @@
+{
+    // Дефолтная цветовая схема, на неё применяются
+    // настройки из editor.tokenColorCustomizations
+    // editor.semanticTokenColorCustomization
+    // и workbench.colorCustomizations
+    // Устанавливается из extensions.txt (sabaken.lmbow)
+    "workbench.colorTheme": "Light Modern. Black on White",
+
+    // Мои иконки. Устанавливаются из extensions.txt (sabaken.good-icons)
+    "workbench.iconTheme": "good-icons",
+
+    // Шрифт
+    "editor.fontFamily": "'Hack', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 12.5,
+
+    // Размер отступов в дереве файлов
+    "workbench.tree.indent": 12,
+
+    // Что будет написано в titlebar-е окна
+    "window.title": "${dirty}${remoteName}${separator}${rootPath}${separator}${activeEditorShort}${separator}${profileName}",
+    "window.titleSeparator": " 🔵 ",
+
+    // Не показывать вкладки
+    "workbench.editor.showTabs": "none",
+
+    // Не знаю что это
+    // "editor.hideCursorInOverviewRuler": true,
+
+    // Размер полос прокрутки
+    "editor.scrollbar.horizontalScrollbarSize": 6,
+    "editor.scrollbar.verticalScrollbarSize": 6,
+
+    // Сколько ждать перед появлением всплывающего окна при наведении крусора
+    "editor.hover.delay": 1000,
+
+    // Не красить скобки в разные цвета
+    "editor.bracketPairColorization.enabled": false,
+
+    // Чото-там по центру
+    "workbench.editor.centeredLayoutFixedWidth": true,
+
+    // Вроде не используется
+    // "window.openFoldersInNewWindow": "off",
+
+    // Автосохранение
+    "files.autoSave": "afterDelay",
+
+    // Не показывать диалог при синхронизации веток
+    "git.confirmSync": false,
+
+    // Подсказки при написании кода по последнему использованию
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+
+    // Максимальное число строчек в терминале
+    "terminal.integrated.scrollback": 50000,
+
+    // Открывать/закрывать папки только при нажатии на значок папки и двойному нажатию
+    "workbench.tree.expandMode": "doubleClick",
+
+    // Не показывать Copilot
+    "chat.commandCenter.enabled": false,
+
+    // Показывать пробельные символы в diff-редакторе
+    "diffEditor.ignoreTrimWhitespace": true,
+
+    // Отключить автопереключение на файл в Tree View при переключении табов
+    "explorer.autoReveal": false,
+
+    // Миникарта. Показывать активную область
+    "editor.minimap.showSlider": "always",
+    // Миникарта. Показывать квадратики вместо букв
+    "editor.minimap.renderCharacters": false,
+
+    // Отображать в Ctrl+Tab все просмотренные файлы а не только отредактированные
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+
+    // Отображать diff в виде одной колонки
+    "diffEditor.renderSideBySide": false,
+
+    // Что-то ещё
+    "editor.wordWrapColumn": 120,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.minimap.enabled": false,
+
+    // Настройки темы
+    "workbench.colorCustomizations": {
+        "[Light Modern. Black on White]": {
+            // Это всё багует
+
+            // Подсветка активного найденного слова при поиске
+            // "editor.findMatchBackground": "#fcd47e",
+
+            // Подсветка неактивных найденных слов при поиске
+            // "editor.findMatchHighlightBackground": "#fcf4d4",
+
+            // Цвет выделения
+            // "editor.selectionBackground": "#fcf4d4",
+
+            // Цвет участков текста, совпадающих с выделением
+            // "editor.selectionHighlightBackground":"#fcf4d4",
+
+            // Цвет фона подсветки слова под курсором
+            // "editor.wordHighlightBackground": "#fcf4d4",
+            // "editor.wordHighlightStrongBackground": "#fcf4d4",
+
+            // Цвет фона подсветки слов, совпадающих со словом под курсором
+            // "editor.selectionHighlightBackground": "#fcf4d4",
+        }
+    },
+
+    // Настройки подсветки синтаксиса
+    // применяются с моей темой Light Modern. Black on White
+    "editor.semanticTokenColorCustomizations": {
+        "[Light Modern. Black on White]": {
+            "rules": {
+                // Почти всё
+                "variable": "#2c2c2c",
+
+                // Константы фиолетовые
+                "variable.readonly": "#8c119b",
+
+                // Комментарии сервые и с наклоном
+                "comment": {
+                    "foreground": "#8c8c8c",
+                    "fontStyle": "italic"
+                },
+
+                // Неймспейсы коричневые
+                "namespace": "#885e00",
+
+                // Ключевые слова синие
+                "keyword": "#22699d",
+
+                // Цифры синие
+                "number": "#22699d",
+
+                // Встроенные типы синие
+                "type.defaultLibrary": "#22699d",
+
+                // Константы языка синие. Ex: nil
+                "variable.defaultLibrary": "#22699d",
+
+                // Функции стандартной библиотеки синие
+                "function.defaultLibrary": "#22699d",
+
+                // Методы и функции сине-зелёные
+                "method": "#00687f",
+                "function": "#00687f",
+            }
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Light Modern. Black on White]": {
+            // Комментарии серые
+            "comments": "#909090",
+
+            // Ключевые слова и цифры синие
+            // "keywords": "#0033b3",
+            // "numbers": "#0033b3",
+
+            // Функции сине-зелёные
+            // "functions": "#00627a",
+
+            "textMateRules": [
+                // Комментарии серые и с наклоном
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "foreground": "#8c8c8c",
+                        "fontStyle": "italic"
+                    }
+                },
+                // Строки зелёные
+                {
+                    "scope": "string.quoted",
+                    "settings": {
+                        "foreground": "#20916a",
+                    }
+                },
+                // Плейсхолдеры в строках синие. Ex: fmt.Sprintf("%s", str)
+                {
+                    "scope": "constant.other.placeholder",
+                    "settings": {
+                        "foreground": "#22699d",
+                    }
+                },
+                // any синий
+                {
+                    "scope": "entity.name.type.any",
+                    "settings": {
+                        "foreground": "#22699d",
+                    }
+                },
+                // Ключевые слова синие
+                {
+                    "scope": "keyword",
+                    "settings": {
+                        "foreground": "#22699d",
+                    }
+                },
+                // Тип error синий
+                {
+                    "scope": "storage.type.error.go",
+                    "settings": {
+                        "foreground": "#22699d",
+                    }
+                },
+                // Константы фиолетовые
+                {
+                    "scope": "variable.other.constant",
+                    "settings": {
+                        "foreground": "#8c119b",
+                    }
+                },
+                // Функции сине-зелёные
+                {
+                    "scope": "entity.name.function",
+                    "settings": {
+                        "foreground": "#00687f",
+                    }
+                },
+
+                // Всё чёрное (на всякий случай когда надо подебагать если не работает)
+                // {
+                //     "scope": "source.go",
+                //     "settings": {
+                //         "foreground": "#000000",
+                //     }
+                // },
+            ],
+        },
+    },
+}

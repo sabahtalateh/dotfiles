@@ -50,5 +50,6 @@ https://folivora.ai/keyboardcleantool
 
 Тут можно скачивать красивые обои и складывать в `iCloud Drive/Wallpapers`.
 
+- https://pixabay.com
 - https://unsplash.com/wallpapers
 - https://wallpaperscraft.com
